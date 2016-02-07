@@ -1,0 +1,7 @@
+TCS3200  			KEYWORD1
+color				KEYWORD2
+setPin 				KEYWORD2
+getRed				KEYWORD2		
+getGreen			KEYWORD2
+getBlue				KEYWORD2
+imprimirValores			KEYWORD2
