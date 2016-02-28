@@ -40,8 +40,11 @@ void loop()
   
   ir = seekerInput.Direction;
   intensidad = seekerInput.Strength;
-  
-  imprimir_valores();
+  Serial.print("Infra: ");
+  Serial.println(ir);
+  //Serial.print(" compas: ");
+  //Serial.println(brujula);
+  //imprimir_valores();
   //followball();
 
 }
@@ -88,7 +91,7 @@ void followball()
   if (brujula >= 20 &&  brujula <= 345)
   {
   
-    Serial.println();
+    Serial.println("No alineado");
     if (brujula >= 183)
     {
     
@@ -202,12 +205,12 @@ void followball()
   }
 
 }
-
+/*
 void imprimir_valores()
 {
-  Serial.print("Infra: ");
-  Serial.print(ir);
+  //Serial.print("Infra: ");
+  //Serial.print(ir);
   Serial.print(" compas: ");
   Serial.println(brujula);
-}
+}*/
 
