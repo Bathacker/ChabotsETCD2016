@@ -12,7 +12,6 @@ Adafruit_HMC5883_Unified mag = Adafruit_HMC5883_Unified(12345);
 
 byte ir, intensidad;
 int c_actual, c_inicio, brujula;
-float headingDegrees;
 
 void setup()
 {
@@ -32,7 +31,7 @@ void setup()
 
 void loop()
 {
-  
+    
   c_actual = obtenerGrados();
   brujula = arreglarCompas();
   
@@ -40,18 +39,20 @@ void loop()
   
   ir = seekerInput.Direction;
   intensidad = seekerInput.Strength;
+
+
+  
   Serial.print("Infra: ");
   Serial.println(ir);
-  //Serial.print(" compas: ");
-  //Serial.println(brujula);
-  //imprimir_valores();
+  Serial.print(" compas: ");
+  Serial.println(brujula);
   //followball();
 
 }
 
-int obtenerGrados()
+float obtenerGrados()
 {
-
+  
   sensors_event_t event;
   mag.getEvent(&event);
   
@@ -63,8 +64,8 @@ int obtenerGrados()
   if(heading > 2*PI)
     heading -= 2*PI;
     
-  headingDegrees = heading * 180/M_PI;
-  
+  float headingDegrees = heading * 180/M_PI;
+
   return headingDegrees;
 
 }
@@ -205,12 +206,3 @@ void followball()
   }
 
 }
-/*
-void imprimir_valores()
-{
-  //Serial.print("Infra: ");
-  //Serial.print(ir);
-  Serial.print(" compas: ");
-  Serial.println(brujula);
-}*/
-
