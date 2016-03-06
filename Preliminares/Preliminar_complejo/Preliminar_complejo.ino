@@ -24,25 +24,10 @@ void setup()
   Serial.begin(9600);
   Wire.begin();
   
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-  pinMode(8, OUTPUT);
-  pinMode(9, OUTPUT);
-  pinMode(10, OUTPUT);
-  pinMode(11, OUTPUT);
-  pinMode(12, OUTPUT);
-  pinMode(13, OUTPUT);
-  pinMode(14, OUTPUT);
-  
   robot.setM1puente1(6,7,8,9);
   robot.setM2puente1(2,17,16,15);
   robot.setM2puente2(3,14,4,5);
   robot.setM1puente1(10,11,12,13);
-  
-  encenderLeds();
   
   robot.encenderPuente1();
   robot.encenderPuente2();
@@ -97,24 +82,6 @@ void leerDatos()
   LDRValue4_1 = analogRead(LDR4_1);
   LDRValue4_2 = analogRead(LDR4_2);
   LDRValue4_3 = analogRead(LDR4_3);
-
-}
-
-void encenderLeds()
-{
-
-  digitalWrite(3, HIGH);
-  digitalWrite(4, HIGH);
-  digitalWrite(5, HIGH);
-  digitalWrite(6, HIGH);
-  digitalWrite(7, HIGH);
-  digitalWrite(8, HIGH);
-  digitalWrite(9, HIGH);
-  digitalWrite(10, HIGH);
-  digitalWrite(11, HIGH);
-  digitalWrite(12, HIGH);
-  digitalWrite(13, HIGH);
-  digitalWrite(14, HIGH);
 
 }
 
