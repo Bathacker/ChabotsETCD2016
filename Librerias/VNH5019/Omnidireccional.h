@@ -15,7 +15,7 @@ class Omnidireccional //En esta libreria se usan los cuatro motores
         void encenderPuente1();
         void apagarPuente1();
         void setM2puente2(int M2PWM, int M2INB, int M2INA, int M2EN);
-        void setM1puente2(int M1PWM, int M1INB, int M1INA, int M1EN);
+        void setM1puente2(int M1PWM, int M1INB, int M1INA, int M1EN );
         void encenderPuente2();
         void apagarPuente2();
         void Aadelante(int vel1, int vel2, int vel3, int vel4);
