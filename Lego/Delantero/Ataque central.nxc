@@ -219,11 +219,9 @@ void alinearDer(int v)
                       if(Sensor(S4) > luz)
                       {
 
-                        Off(OUT_ABC);
-                        atras(90);
-                        Wait(800);
+           
                        Off(OUT_ABC);
-                       Wait(1000);
+                       Wait(1300);
                        
                       }
                       
@@ -242,11 +240,9 @@ void alinearDer(int v)
                      if(Sensor(S4) > luz)
                      {
 
+                 
                        Off(OUT_ABC);
-                       atras(90);
-                       Wait(800);
-                       Off(OUT_ABC);
-                       Wait(1000);
+                       Wait(1300);
                     
                      }
                     
