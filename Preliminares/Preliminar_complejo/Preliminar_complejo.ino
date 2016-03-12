@@ -27,7 +27,7 @@ void setup()
   robot.setM1puente1(6,7,8,9);
   robot.setM2puente1(2,17,16,15);
   robot.setM2puente2(3,14,4,5);
-  robot.setM1puente1(10,11,12,13);
+  robot.setM1puente2(10,11,12,13);
   
   robot.encenderPuente1();
   robot.encenderPuente2();
@@ -55,14 +55,14 @@ void loop()
   
   Serial.print("Infra: ");
   Serial.println(ir);
-  Serial.print(" compas: ");
+  /*Serial.print(" compas: ");
   Serial.print(brujula);
   Serial.print(" luz 1: ");
   Serial.print(LDRValue1);
   Serial.print(" luz 2: ");
   Serial.print(LDRValue2);
   Serial.print(" luz 3: ");
-  Serial.println(LDRValue3);
+  Serial.println(LDRValue3);*/
   //followball();
 
 }
