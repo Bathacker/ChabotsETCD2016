@@ -12,11 +12,6 @@ Adafruit_HMC5883_Unified mag = Adafruit_HMC5883_Unified(12345);
 
 byte ir, intensidad;
 int c_actual, c_inicio, brujula;
-int LDR1_1, LDR1_2, LDR1_3, LDRValue1_1, LDRValue1_2, LDRValue1_3;
-int LDR2_1, LDR2_2, LDR2_3, LDRValue2_1, LDRValue2_2, LDRValue2_3;
-int LDR3_1, LDR3_2, LDR3_3, LDRValue3_1, LDRValue3_2, LDRValue3_3;
-int LDR4_1, LDR4_2, LDR4_3, LDRValue4_1, LDRValue4_2, LDRValue4_3;
-int LDRValue1, LDRValue2, LDRValue3;
 
 void setup()
 {
@@ -39,12 +34,6 @@ void setup()
 void loop()
 {
   
-  leerDatos();
-  
-  LDRValue1 = promedio1();
-  LDRValue2 = promedio2();
-  LDRValue3 = promedio3();
-  
   c_actual = obtenerGrados();
   brujula = arreglarCompas();
   
@@ -57,52 +46,7 @@ void loop()
   Serial.println(ir);
   Serial.print(" compas: ");
   Serial.print(brujula);
-  Serial.print(" luz 1: ");
-  Serial.print(LDRValue1);
-  Serial.print(" luz 2: ");
-  Serial.print(LDRValue2);
-  Serial.print(" luz 3: ");
-  Serial.println(LDRValue3);
   //followball();
-
-}
-
-void leerDatos()
-{
-
-  LDRValue1_1 = analogRead(LDR1_1);
-  LDRValue1_2 = analogRead(LDR1_2);
-  LDRValue1_3 = analogRead(LDR1_3);
-  LDRValue2_1 = analogRead(LDR2_1);
-  LDRValue2_2 = analogRead(LDR2_2);
-  LDRValue2_3 = analogRead(LDR2_3);
-  LDRValue3_1 = analogRead(LDR3_1);
-  LDRValue3_2 = analogRead(LDR3_2);
-  LDRValue3_3 = analogRead(LDR3_3);
-  LDRValue4_1 = analogRead(LDR4_1);
-  LDRValue4_2 = analogRead(LDR4_2);
-  LDRValue4_3 = analogRead(LDR4_3);
-
-}
-
-int promedio1()
-{
-
-  return (LDRValue1_1, LDRValue1_2, LDRValue1_3)/3;
-
-}
-
-int promedio2()
-{
-
-  return (LDRValue2_1, LDRValue2_2, LDRValue2_3)/3;
-
-}
-
-int promedio3()
-{
-
-  return (LDRValue3_1, LDRValue3_2, LDRValue3_3)/3;
 
 }
 

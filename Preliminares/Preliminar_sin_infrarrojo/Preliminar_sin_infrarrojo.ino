@@ -3,14 +3,10 @@
 #include <Wire.h>
 #include <Omnidireccional.h>
 #include <VNH5019.h>
-#include <HTInfraredSeeker.h>
 
 Omnidireccional robot = Omnidireccional();
-InfraredSeeker seeker = InfraredSeeker();
-InfraredInput seekerInput;
 Adafruit_HMC5883_Unified mag = Adafruit_HMC5883_Unified(12345);
 
-byte ir, intensidad;
 int c_actual, c_inicio, brujula;
 int LDR1_1, LDR1_2, LDR1_3, LDRValue1_1, LDRValue1_2, LDRValue1_3;
 int LDR2_1, LDR2_2, LDR2_3, LDRValue2_1, LDRValue2_2, LDRValue2_3;
@@ -48,14 +44,7 @@ void loop()
   c_actual = obtenerGrados();
   brujula = arreglarCompas();
   
-  seekerInput = seeker.ReadAC();
-  
-  ir = seekerInput.Direction;
-  intensidad = seekerInput.Strength;
-  
-  Serial.print("Infra: ");
-  Serial.println(ir);
-  Serial.print(" compas: ");
+  Serial.print("Compas: ");
   Serial.print(brujula);
   Serial.print(" luz 1: ");
   Serial.print(LDRValue1);
@@ -183,81 +172,6 @@ void followball()
   {
   
      Serial.println("Alineado");
-     
-     switch(ir)
-     {
-  
-      case 0:
-    
-          robot.alto();
-          robot.eIDer();
-        
-         break;
-       
-      case 1:
-    
-          robot.alto();
-          robot.eIDer();
-        
-         break;
-       
-      case 2:
-    
-          robot.alto();
-          robot.eIDer();
-        
-         break;
-       
-      case 3:
-    
-          robot.alto();
-          robot.eIDer();
-        
-         break;
-       
-      case 4:
-    
-          robot.alto();
-          robot.eIIzq();
-        
-         break;
-       
-      case 5:
-    
-          robot.alto();
-          robot.adelante();
-        
-         break;
-       
-      case 6:
-    
-          robot.alto();
-          robot.eIDer();
-        
-         break;
-       
-      case 7:
-    
-          robot.alto();
-          robot.eIIzq();
-        
-         break;
-       
-      case 8:
-    
-          robot.alto();
-          robot.eIIzq();
-        
-         break;
-       
-      case 9:
-    
-          robot.alto();
-          robot.eIIzq();
-        
-         break;
-  
-    }
   
   }
 
