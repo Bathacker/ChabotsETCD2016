@@ -38,14 +38,14 @@ void Omnidireccional::apagarPuente1()
 
 }
 
-void Omnidireccional::setM1puente2(int M2PWM, int M2INB, int M2INA, int M2EN)
+void Omnidireccional::setM2puente2(int M2PWM, int M2INB, int M2INA, int M2EN)
 {
 
 	puente2.setM2(M2PWM, M2INB, M2INA, M2EN);
 
 }
 
-void Omnidireccional::setM2puente2(int M1PWM, int M1INB, int M1INA, int M1EN)
+void Omnidireccional::setM1puente2(int M1PWM, int M1INB, int M1INA, int M1EN)
 {
 
 	puente2.setM1(M1PWM, M1INB, M1INA, M1EN);
