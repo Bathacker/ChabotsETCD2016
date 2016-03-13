@@ -12,6 +12,7 @@ Adafruit_HMC5883_Unified mag = Adafruit_HMC5883_Unified(12345);
 
 byte ir, intensidad;
 int c_actual, c_inicio, brujula;
+
 int LDR1_1, LDR1_2, LDR1_3, LDRValue1_1, LDRValue1_2, LDRValue1_3;
 int LDR2_1, LDR2_2, LDR2_3, LDRValue2_1, LDRValue2_2, LDRValue2_3;
 int LDR3_1, LDR3_2, LDR3_3, LDRValue3_1, LDRValue3_2, LDRValue3_3;
@@ -23,7 +24,8 @@ void setup()
   
   Serial.begin(9600);
   Wire.begin();
-  
+  sensor_t sensor;
+  mag.getSensor(&sensor);
   robot.setM1puente1(6,7,8,9);
   robot.setM2puente1(2,17,16,15);
   robot.setM2puente2(3,14,4,5);
@@ -52,23 +54,17 @@ void loop()
   
   ir = seekerInput.Direction;
   intensidad = seekerInput.Strength;
-
-  robot.adelante();
-  delay(1000);
-  robot.atras();
-  delay(1000);
-  
   
   Serial.print("Infra: ");
-  Serial.println(ir);
-  /*Serial.print(" compas: ");
+  Serial.print(ir);
+  Serial.print(" compas: ");
   Serial.print(brujula);
   Serial.print(" luz 1: ");
   Serial.print(LDRValue1);
   Serial.print(" luz 2: ");
   Serial.print(LDRValue2);
   Serial.print(" luz 3: ");
-  Serial.println(LDRValue3);*/
+  Serial.println(LDRValue3);
   //followball();
 
 }
@@ -152,8 +148,6 @@ void followball()
 
   if (brujula >= 20 &&  brujula <= 345)
   {
-  
-    Serial.println("No alineado");
     if (brujula >= 183)
     {
     
@@ -187,8 +181,6 @@ void followball()
   else
   {
   
-     Serial.println("Alineado");
-     
      switch(ir)
      {
   
@@ -267,3 +259,4 @@ void followball()
   }
 
 }
+

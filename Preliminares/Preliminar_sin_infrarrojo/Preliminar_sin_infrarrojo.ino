@@ -45,13 +45,13 @@ void loop()
   brujula = arreglarCompas();
   
   Serial.print("Compas: ");
-  Serial.print(brujula);
-  Serial.print(" luz 1: ");
+  Serial.println(brujula);
+  /*Serial.print(" luz 1: ");
   Serial.print(LDRValue1);
   Serial.print(" luz 2: ");
   Serial.print(LDRValue2);
   Serial.print(" luz 3: ");
-  Serial.println(LDRValue3);
+  Serial.println(LDRValue3);*/
   //followball();
 
 }
