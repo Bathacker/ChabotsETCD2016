@@ -24,8 +24,6 @@ void setup()
   
   Serial.begin(9600);
   Wire.begin();
-  sensor_t sensor;
-  mag.getSensor(&sensor);
   robot.setM1puente1(6,7,8,9);
   robot.setM2puente1(2,17,16,15);
   robot.setM2puente2(3,14,4,5);
