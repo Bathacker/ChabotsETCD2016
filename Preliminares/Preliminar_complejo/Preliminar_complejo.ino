@@ -52,17 +52,23 @@ void loop()
   
   ir = seekerInput.Direction;
   intensidad = seekerInput.Strength;
+
+  robot.adelante();
+  delay(1000);
+  robot.atras();
+  delay(1000);
+  
   
   Serial.print("Infra: ");
   Serial.println(ir);
-  Serial.print(" compas: ");
+  /*Serial.print(" compas: ");
   Serial.print(brujula);
   Serial.print(" luz 1: ");
   Serial.print(LDRValue1);
   Serial.print(" luz 2: ");
   Serial.print(LDRValue2);
   Serial.print(" luz 3: ");
-  Serial.println(LDRValue3);
+  Serial.println(LDRValue3);*/
   //followball();
 
 }
@@ -82,7 +88,6 @@ void leerDatos()
   LDRValue4_1 = analogRead(LDR4_1);
   LDRValue4_2 = analogRead(LDR4_2);
   LDRValue4_3 = analogRead(LDR4_3);
-
 }
 
 int promedio1()
