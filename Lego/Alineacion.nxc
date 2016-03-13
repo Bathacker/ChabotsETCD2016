@@ -1,0 +1,109 @@
+inline int brujula(int compas,int compasactual)
+{
+
+    int b;
+    b = compasactual-compas;
+    if (b < 0)
+    {
+
+        b += 360;
+
+    }
+
+    return b;
+}
+
+
+//FUNCIONES DE LOS 6 MOVIMIENTOS DEL ROBOT...............................
+void diagonalSuperiorIzq(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_A,v);
+  OnRev(OUT_C,v);
+}
+
+void diagonalSuperiorDer(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_C,v);
+  OnRev(OUT_B,v);
+}
+
+void adelante(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_A,v);
+  OnRev(OUT_B,v);
+}
+
+void diagonalInferiorIzq(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_B,v);
+  OnRev(OUT_C,v);
+}
+
+void diagonalInferiorDer(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_C,v);
+  OnRev(OUT_A,v);
+}
+
+void atras(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_B,v);
+  OnRev(OUT_A,v);
+}
+//ALINEACIONES DEL ROBOT....................................
+void alinearIzq(int v)
+{
+  Off(OUT_ABC);
+  OnFwd(OUT_ABC,v);
+}
+
+void alinearDer(int v)
+{
+  Off(OUT_ABC);
+  OnRev(OUT_ABC,v);
+}
+
+task main()
+{
+
+ int cinicio,cactual,ba;
+
+ SetSensorLowspeed(IN_3); //Sensor de compas
+ 
+ cinicio = SensorHTCompass(IN_3);
+ 
+  while (true)
+  {
+
+    cactual = SensorHTCompass(IN_3);  //detectamos el valor actual de compas
+    ba = brujula(cinicio, cactual);  //ba ahora vale un angulo respecto a como empieza
+    
+    if(ba >= 10 && ba <= 350)
+          {
+          	 if(ba >= 115)
+		         {
+
+                 alinearIzq(60);
+
+             }
+
+             else
+             {
+
+                  alinearDer(60);
+
+             }
+          }
+          else
+              Off(OUT_ABC);
+          
+
+  }
+
+}

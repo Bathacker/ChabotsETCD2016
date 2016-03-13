@@ -3,71 +3,71 @@
 //FUNCION QUE DEVUELVE ENTERO QUE HACE QUE EL COMPAS TE DE EL VALOR COMO APUNTASTE AL PRINCIPIO
 inline int brujula(int compas,int compasactual)
 {
-    
+
     int b;
     b = compasactual-compas;
     if (b < 0)
     {
-    
+
         b += 360;
-    
+
     }
-    
+
     return b;
 }
 //FUNCIONES DE LOS 6 MOVIMIENTOS DEL ROBOT...............................
 void diagonalSuperiorIzq(int v)
 {
   Off(OUT_B);
-  OnFwd(OUT_A,v);
-  OnRev(OUT_C,v);
+  OnRev(OUT_A,v);
+  OnFwd(OUT_C,v);
 }
 
 void diagonalSuperiorDer(int v)
 {
   Off(OUT_A);
-  OnFwd(OUT_C,v);
-  OnRev(OUT_B,v);
+  OnRev(OUT_C,v);
+  OnFwd(OUT_B,v);
 }
 
 void adelante(int v)
 {
   Off(OUT_C);
-  OnFwd(OUT_A,v);
-  OnRev(OUT_B,v);
+  OnRev(OUT_A,v);
+  OnFwd(OUT_B,v);
 }
 
 void diagonalInferiorIzq(int v)
 {
   Off(OUT_A);
-  OnFwd(OUT_B,v);
-  OnRev(OUT_C,v);
+  OnRev(OUT_B,v);
+  OnFwd(OUT_C,v);
 }
 
 void diagonalInferiorDer(int v)
 {
   Off(OUT_B);
-  OnFwd(OUT_C,v);
-  OnRev(OUT_A,v);
+  OnRev(OUT_C,v);
+  OnFwd(OUT_A,v);
 }
 
 void atras(int v)
 {
   Off(OUT_C);
-  OnFwd(OUT_B,v);
-  OnRev(OUT_A,v);
+  OnRev(OUT_B,v);
+  OnFwd(OUT_A,v);
 }
 //ALINEACIONES DEL ROBOT....................................
 void alinearIzq(int v)
 {
   Off(OUT_ABC);
-  OnFwd(OUT_ABC,v);
+  OnRev(OUT_ABC,v);
 }
 
 void alinearDer(int v)
 {
   Off(OUT_ABC);
-  OnRev(OUT_ABC,v);
+  OnFwd(OUT_ABC,v);
 }
 
  //MAIN....................................................
