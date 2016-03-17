@@ -74,7 +74,7 @@ void alinearDer(int v)
  task main()
  {
      //VARIABLE DE LUZ
-     int luz = 35;       //VALOR DE LUZ SE NECESITA CALIBRAR
+     int luz = 40;       //VALOR DE LUZ SE NECESITA CALIBRAR
      //VARIABLES DE SENSOR IR
      int ir,s1,s2,s3,s4,s5;
      //VARIABLES DE COMPAS

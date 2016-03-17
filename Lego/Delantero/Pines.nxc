@@ -3,16 +3,16 @@
 //FUNCION QUE DEVUELVE ENTERO QUE HACE QUE EL COMPAS TE DE EL VALOR COMO APUNTASTE AL PRINCIPIO
 inline int brujula(int compas,int compasactual)
 {
-    
+
     int b;
     b = compasactual-compas;
     if (b < 0)
     {
-    
+
         b += 360;
-    
+
     }
-    
+
     return b;
 }
 //FUNCIONES DE LOS 6 MOVIMIENTOS DEL ROBOT...............................
@@ -74,44 +74,41 @@ void alinearDer(int v)
  task main()
  {
      //VARIABLE DE LUZ
-     int luz = 40;
-      //VALOR DE LUZ SE NECESITA CALIBRAR
+     int luz = 35;       //VALOR DE LUZ SE NECESITA CALIBRAR
      //VARIABLES DE SENSOR IR
      int ir,s1,s2,s3,s4,s5;
      //VARIABLES DE COMPAS
      int cinicio,cactual,ba;
 
-     SetSensorLowspeed(IN_1); //Sensor infrarrojo
-     SetSensorLowspeed(IN_3); //Sensor de compas
-     SetSensorLight(IN_4);  //Sensor de luz
-     SetSensorTouch(IN_2);   //Sensor de tacto
+     SetSensorLowspeed(S1); //Sensor infrarrojo
+     SetSensorLowspeed(S3); //Sensor de compas
+     SetSensorLight(S4);  //Sensor de luz
+     SetSensorTouch(S2);   //Sensor de tacto
      //guardamos valor de compas al inicio
-     cinicio = SensorHTCompass(IN_3);
+     cinicio = SensorHTCompass(S3);
 
      //inicia ciclo
      while(true)
      {
        //leemos datos de ir
-       ReadSensorHTIRSeeker2AC(IN_1,ir,s1,s2,s3,s4,s5);
-       cactual = SensorHTCompass(IN_3);  //detectamos el valor actual de compas
+       ReadSensorHTIRSeeker2AC(S1,ir,s1,s2,s3,s4,s5);
+       cactual = SensorHTCompass(S3);  //detectamos el valor actual de compas
        ba = brujula(cinicio, cactual);  //ba ahora vale un angulo respecto a como empieza
-       if(Sensor(IN_2) ==0)
+       if(Sensor(S2) ==0)
        {
-          if(ba >= 20 && ba <= 335 )
+       if(ba >= 0 && ba <= 347)
           {
-          	 if(ba >= 115)//115
+          	 if(ba >= 120)//115
 		         {
 
-                 Off(OUT_ABC);
-                 alinearIzq(80);
+                 alinearIzq(75);
 
              }
 
              else
              {
 
-                  Off(OUT_ABC);
-                  alinearDer(85);
+                  alinearDer(75);
 
              }
           }
@@ -124,14 +121,15 @@ void alinearDer(int v)
 
                  case 1:
 
+
                       if(Sensor(S4) > luz)
                       {
 
                        Off(OUT_ABC);
-                       diagonalSuperiorIzq(80);
-                       Wait(750);
-                       Off(OUT_ABC);
+                       diagonalInferiorDer(90);
                        Wait(800);
+                       //Off(OUT_ABC);
+                       //Wait(500);
 
                       }
 
@@ -139,7 +137,7 @@ void alinearDer(int v)
                       {
 
                        Off(OUT_ABC);
-                       diagonalInferiorDer(80);
+                       atras(90);
 
                       }
 
@@ -151,10 +149,10 @@ void alinearDer(int v)
                       {
 
                        Off(OUT_ABC);
-                       diagonalSuperiorIzq(80);
+                       diagonalSuperiorDer(80);
                        Wait(750);
-                       Off(OUT_ABC);
-                       Wait(800);
+                       //Off(OUT_ABC);
+                       //Wait(500);
 
                       }
 
@@ -162,9 +160,9 @@ void alinearDer(int v)
                       {
 
                         Off(OUT_ABC);
-                        diagonalInferiorDer(80);
+                        diagonalInferiorIzq(85);
 
-                     }
+                      }
 
                       break;
 
@@ -174,10 +172,10 @@ void alinearDer(int v)
                       {
 
                         Off(OUT_ABC);
-                        diagonalSuperiorDer(80);
+                        diagonalInferiorDer(90);
                         Wait(750);
-                       Off(OUT_ABC);
-                       Wait(800);
+                       //Off(OUT_ABC);
+                       //Wait(500);
 
                       }
 
@@ -185,7 +183,7 @@ void alinearDer(int v)
                       {
 
                         Off(OUT_ABC);
-                        diagonalInferiorIzq(80);
+                        diagonalSuperiorIzq(85);
 
                       }
 
@@ -197,17 +195,17 @@ void alinearDer(int v)
                     {
 
                       Off(OUT_ABC);
-                      diagonalInferiorIzq(80);
+                      diagonalInferiorDer(90);
                       Wait(750);
-                      Off(OUT_ABC);
-                      Wait(750);
+                       //Off(OUT_ABC);
+                       //Wait(800);
 
                     }
 
                     else
                     {
                       Off(OUT_ABC);
-                      diagonalSuperiorDer(80);
+                      adelante(100);
 
                     }
 
@@ -220,10 +218,7 @@ void alinearDer(int v)
 
 
                        Off(OUT_ABC);
-                      diagonalInferiorIzq(80);
-                      Wait(750);
-                      Off(OUT_ABC);
-                      Wait(750);
+                       atras(100);
 
                       }
 
@@ -231,7 +226,7 @@ void alinearDer(int v)
                       {
 
                           Off(OUT_ABC);
-                          diagonalSuperiorDer(80);
+                          adelante(100);
 
                       }
 
@@ -242,18 +237,17 @@ void alinearDer(int v)
                      if(Sensor(S4) > luz)
                      {
 
+
                        Off(OUT_ABC);
-                       diagonalInferiorDer(80);
-                       Wait(750);
-                       Off(OUT_ABC);
-                       Wait(750);
+                       atras(100);
+
                      }
 
                      else
                      {
 
                        Off(OUT_ABC);
-                       diagonalSuperiorIzq(80);
+                       adelante(100);
 
                      }
 
@@ -265,10 +259,10 @@ void alinearDer(int v)
                      {
 
                        Off(OUT_ABC);
-                       diagonalSuperiorIzq(80);
-                     Wait(750);
-                       Off(OUT_ABC);
+                       diagonalInferiorIzq(80);
                        Wait(750);
+                       //Off(OUT_ABC);
+                       //Wait(800);
 
                      }
 
@@ -276,7 +270,7 @@ void alinearDer(int v)
                      {
 
                         Off(OUT_ABC);
-                        diagonalInferiorDer(80);
+                        diagonalSuperiorDer(100);
 
                      }
 
@@ -288,10 +282,10 @@ void alinearDer(int v)
                     {
 
                      Off(OUT_ABC);
-                     diagonalSuperiorDer(80);
+                     diagonalSuperiorIzq(80);
                      Wait(750);
-                       Off(OUT_ABC);
-                       Wait(750);
+                       //Off(OUT_ABC);
+                       //Wait(800);
 
                     }
 
@@ -299,8 +293,7 @@ void alinearDer(int v)
                     {
 
                      Off(OUT_ABC);
-                     diagonalInferiorIzq(80);
-
+                     diagonalInferiorDer(85);
 
                     }
 
@@ -312,10 +305,10 @@ void alinearDer(int v)
                      {
 
                        Off(OUT_ABC);
-                       diagonalSuperiorDer(80);
+                       diagonalSuperiorIzq(80);
                        Wait(750);
                        Off(OUT_ABC);
-                       Wait(750);
+                       Wait(800);
 
                      }
 
@@ -323,7 +316,7 @@ void alinearDer(int v)
                      {
 
                        Off(OUT_ABC);
-                       diagonalInferiorIzq(80);
+                       atras(85);
 
                      }
 
@@ -333,11 +326,8 @@ void alinearDer(int v)
 
                     if(Sensor(S4) > luz)
                      {
-                       Off(OUT_ABC);
-                      diagonalSuperiorDer(80);
-                      Wait(750);
-                      Off(OUT_ABC);
-                      Wait(750);
+                       adelante(100);
+                       Wait(250);
 
                      }
 

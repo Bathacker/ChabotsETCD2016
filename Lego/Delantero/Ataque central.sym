@@ -1,1164 +1,1275 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0atras	6	1	0	4	4
-1	__D0alinearIzq	6	1	4	4	2
+0	__D0alinearIzq	6	1	0	4	2
+1	__D0alinearDer	6	1	4	4	2
 2	__D0diagonalInferiorDer	6	1	8	4	4
 3	__D0diagonalSuperiorDer	6	1	12	4	4
 4	__D0diagonalInferiorIzq	6	1	16	4	4
-5	__D0alinearDer	6	1	20	4	2
-6	__CLSRMutex2	9	0	24	4	2
-7	__CLSWMutex2	9	0	28	4	2
-8	__RLSBmutex0	9	0	32	4	2
-9	__D0adelante	6	1	36	4	4
-10	__RLSBmutex2	9	0	40	4	4
-11	__signed_stack_001main	6	1	44	4	32
-12	__D0brujula_inline_main	6	1	48	4	3
-13	__signed_stack_002main	6	1	52	4	2
-14	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	56	4	20
-15	__signed_stack_001brujula_inline_main	6	1	60	4	2
-16	__DU0SetSensorLowspeed_inline_main	5	1	64	4	4
-17	__D0main	6	1	68	4	80
-18	__D0diagonalSuperiorIzq	6	1	72	4	4
-19	__D0SetSensorLight_inline_main	6	1	76	4	3
-20	__D0SetSensorLowspeed_inline_main	6	1	80	4	6
-21	__DU0SetSensorLight_inline_main	5	1	84	4	2
-22	__CLSCSMutex0	9	0	88	4	2
-23	__CLSWMutex0	9	0	92	4	2
-24	__CLSRMutex0	9	0	96	4	2
-25	__CLSCSMutex2	9	0	100	4	2
-26	__OnRevMutex	9	0	104	4	14
-27	__alinearDer_7qG2_v_7qG2_000	4	1	108	2	2
-28	__main_7qG2_luz_7qG2_000	4	1	110	2	11
-29	__main_7qG2_cinicio_7qG2_000	4	1	112	2	2
-30	__main_7qG2_ba_7qG2_000	4	1	114	2	6
-31	__main_7qG2_ir_7qG2_000	4	1	116	2	2
-32	__constVal360	4	0	118	2	1
-33	__diagonalInferiorIzq_7qG2_v_7qG2_000	4	1	120	2	6
-34	__adelante_7qG2_v_7qG2_000	4	1	122	2	4
-35	__diagonalSuperiorDer_7qG2_v_7qG2_000	4	1	124	2	5
-36	__diagonalInferiorDer_7qG2_v_7qG2_000	4	1	126	2	7
-37	__diagonalSuperiorIzq_7qG2_v_7qG2_000	4	1	128	2	6
-38	__alinearIzq_7qG2_v_7qG2_000	4	1	130	2	2
-39	__atras_7qG2_v_7qG2_000	4	1	132	2	4
-40	__brujula_7qG2_b_7qG2_000_inline_main	4	1	134	2	5
-41	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	136	1	2
-42	__adelante_return	1	1	137	1	4
-43	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	138	1	2
-44	__diagonalInferiorDer_return	1	1	139	1	7
-45	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	140	1	2
-46	__diagonalInferiorIzq_return	1	1	141	1	6
-47	__diagonalSuperiorDer_return	1	1	142	1	5
-48	__diagonalSuperiorIzq_return	1	1	143	1	6
-49	__constVal73	2	0	144	1	1
-50	__OnRev_Tmp	2	1	145	1	14
-51	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	146	1	4
-52	__constVal63	2	0	147	1	23
-53	__constVal96	2	0	148	1	23
-54	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	149	1	4
-55	____initialize_global_data_return	1	1	150	1	3
-56	__alinearDer_return	1	1	151	1	3
-57	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	152	1	4
-58	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	153	1	10
-59	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	154	1	4
-60	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	155	1	4
-61	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	156	1	2
-62	__atras_return	1	1	157	1	4
-63	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	158	1	2
-64	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	159	1	4
-65	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	160	1	4
-66	__alinearIzq_return	1	1	161	1	3
-67	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	162	1	2
-68	__PFTmp	1	1	163	1	1
-69	__constVal2	2	0	164	1	5
-70	__RLSBIterations2	1	1	165	1	4
-71	__constVal8	2	0	166	1	1
-72	__constVal9	2	0	167	1	1
-73	__constVal16	2	0	168	1	1
-74	__constVal7	2	0	169	1	1
-75	__RLSBytesCount2	1	1	170	1	12
-76	__RLSBytesCount0	1	1	171	1	7
-77	__RLSBResult0	2	1	172	1	8
-78	____ReadLSBytes0_return	1	1	173	1	3
-79	__RLSBIterations0	1	1	174	1	4
-80	__RLSBResult2	2	1	175	1	7
-81	____ReadLSBytes2_return	1	1	176	1	4
-82	__constVal15	2	0	177	1	2
-83	__zfSetSensorLight_inline_main	1	1	178	1	2
-84	__constVal3	2	0	179	1	34
-85	__constVal4	2	0	180	1	1
-86	__constVal6	2	0	181	1	1
-87	__constVal0	2	1	182	1	85
-88	__zfbrujula_inline_main	1	1	183	1	3
-89	__constVal32	2	0	184	1	70
-90	__zfSetSensorLowspeed_inline_main	1	1	185	1	4
-91	__constVal1	2	0	186	1	15
-92	__ResetSensorPort	1	1	187	1	6
-93	__ResetSensorTmp	1	1	188	1	2
-94	__constVal5	2	0	189	1	1
-95	____ResetSensorSubroutine_return	1	1	190	1	6
-96	__zfmain	1	1	191	1	55
-97	__CLSRArgs0	8	0	4	12	5
-98	__CLSRArgs0.Result	2	1	192	1	5
-99	__CLSRArgs0.Port	1	1	193	1	5
-100	__CLSRArgs0.Buffer	7	0	194	4	5
-101	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
-102	__CLSRArgs0.BufferLen	1	1	196	1	5
-103	__CLSWArgs0	8	0	4	12	5
-104	__CLSWArgs0.Result	2	1	200	1	5
-105	__CLSWArgs0.Port	1	1	201	1	5
-106	__CLSWArgs0.Buffer	7	0	202	4	5
-107	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
-108	__CLSWArgs0.ReturnLen	1	1	204	1	5
-109	__CLSCSArgs2	8	0	3	4	4
-110	__CLSCSArgs2.Result	2	1	208	1	4
-111	__CLSCSArgs2.Port	1	1	209	1	4
-112	__CLSCSArgs2.BytesReady	1	1	210	1	4
-113	__CLSCSArgs0	8	0	3	4	4
-114	__CLSCSArgs0.Result	2	1	212	1	4
-115	__CLSCSArgs0.Port	1	1	213	1	4
-116	__CLSCSArgs0.BytesReady	1	1	214	1	4
-117	__CLSWArgs2	8	0	4	12	5
-118	__CLSWArgs2.Result	2	1	216	1	5
-119	__CLSWArgs2.Port	1	1	217	1	5
-120	__CLSWArgs2.Buffer	7	0	218	4	5
-121	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
-122	__CLSWArgs2.ReturnLen	1	1	220	1	5
-123	__CLSRArgs2	8	0	4	12	5
-124	__CLSRArgs2.Result	2	1	224	1	5
-125	__CLSRArgs2.Port	1	1	225	1	5
-126	__CLSRArgs2.Buffer	7	0	226	4	5
-127	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
-128	__CLSRArgs2.BufferLen	1	1	228	1	5
-129	__OUT_ABC	7	0	230	4	11
-130	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
-131	__RLSBbufLSWrite1	7	0	232	4	2
-132	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-133	__RLSLastGoodRead2	7	0	234	4	2
-134	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
-135	__RLSReadBuf2	7	0	236	4	12
-136	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
-137	__RLSLastGoodRead0	7	0	238	4	2
-138	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
-139	__RLSReadBuf0	7	0	240	4	8
-140	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+5	__CLSWMutex2	9	0	20	4	2
+6	__CLSCSMutex2	9	0	24	4	2
+7	__CLSRMutex2	9	0	28	4	2
+8	__RLSBmutex2	9	0	32	4	4
+9	__RLSBmutex0	9	0	36	4	2
+10	__D0brujula_inline_main	6	1	40	4	8
+11	__DU0SetSensorLowspeed_inline_main	5	1	44	4	10
+12	__signed_stack_001main	6	1	48	4	28
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	40
+14	__signed_stack_001brujula_inline_main	6	1	56	4	4
+15	__D0main	6	1	60	4	86
+16	__D0diagonalSuperiorIzq	6	1	64	4	4
+17	__D0SetSensorLight_inline_main	6	1	68	4	2
+18	__D0SetSensorLowspeed_inline_main	6	1	72	4	4
+19	__DU0SetSensorLight_inline_main	5	1	76	4	5
+20	__CLSCSMutex0	9	0	80	4	2
+21	__CLSWMutex0	9	0	84	4	2
+22	__CLSRMutex0	9	0	88	4	2
+23	__OnRevMutex	9	0	92	4	10
+24	__main_7qG2_ir_7qG2_000	4	1	96	2	2
+25	__main_7qG2_luz_7qG2_000	4	1	98	2	11
+26	__main_7qG2_ba_7qG2_000	4	1	100	2	4
+27	__main_7qG2_cactual_7qG2_000	4	1	102	2	2
+28	__main_7qG2_cinicio_7qG2_000	4	1	104	2	2
+29	__diagonalInferiorDer_7qG2_v_7qG2_000	4	1	106	2	6
+30	__diagonalInferiorIzq_7qG2_v_7qG2_000	4	1	108	2	8
+31	__diagonalSuperiorDer_7qG2_v_7qG2_000	4	1	110	2	8
+32	__alinearDer_7qG2_v_7qG2_000	4	1	112	2	2
+33	__diagonalSuperiorIzq_7qG2_v_7qG2_000	4	1	114	2	6
+34	__alinearIzq_7qG2_v_7qG2_000	4	1	116	2	2
+35	__brujula_7qG2_compas_7qG2_000_inline_main	4	1	118	2	2
+36	__brujula_7qG2_b_7qG2_000_inline_main	4	1	120	2	5
+37	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	122	1	2
+38	__diagonalInferiorIzq_return	1	1	123	1	8
+39	__diagonalInferiorDer_return	1	1	124	1	6
+40	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	125	1	2
+41	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	126	1	2
+42	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	127	1	4
+43	__constVal96	2	0	128	1	49
+44	__diagonalSuperiorIzq_return	1	1	129	1	6
+45	__constVal63	2	0	130	1	49
+46	__diagonalSuperiorDer_return	1	1	131	1	8
+47	__constVal73	2	0	132	1	1
+48	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	133	1	10
+49	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	134	1	4
+50	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	135	1	4
+51	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	136	1	4
+52	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	137	1	4
+53	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	138	1	4
+54	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	139	1	2
+55	__alinearDer_return	1	1	140	1	3
+56	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	141	1	2
+57	__alinearIzq_return	1	1	142	1	3
+58	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	143	1	4
+59	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	144	1	2
+60	____initialize_global_data_return	1	1	145	1	3
+61	__OnRev_Tmp	2	1	146	1	10
+62	__RLSBIterations2	1	1	147	1	4
+63	__RLSBytesCount2	1	1	148	1	12
+64	__RLSBResult2	2	1	149	1	7
+65	__constVal8	2	0	150	1	1
+66	__PFTmp	1	1	151	1	1
+67	__constVal2	2	0	152	1	6
+68	____ReadLSBytes2_return	1	1	153	1	4
+69	____ReadLSBytes0_return	1	1	154	1	3
+70	__LSWriteOptions2	1	1	155	1	1
+71	__LSWriteOptions0	1	1	156	1	1
+72	__RLSBIterations0	1	1	157	1	4
+73	__RLSBytesCount0	1	1	158	1	7
+74	__RLSBResult0	2	1	159	1	8
+75	__constVal7	2	0	160	1	1
+76	__constVal6	2	0	161	1	1
+77	__constVal4	2	0	162	1	1
+78	__constVal5	2	0	163	1	1
+79	__constVal3	2	0	164	1	60
+80	__constVal32	2	0	165	1	148
+81	__constVal1	2	0	166	1	17
+82	__constVal0	2	1	167	1	194
+83	____ResetSensorSubroutine_return	1	1	168	1	6
+84	__ResetSensorTmp	1	1	169	1	2
+85	__constVal9	2	0	170	1	1
+86	__constVal16	2	0	171	1	1
+87	__ResetSensorPort	1	1	172	1	6
+88	__CLSWArgs2	8	0	4	12	5
+89	__CLSWArgs2.Result	2	1	176	1	5
+90	__CLSWArgs2.Port	1	1	177	1	5
+91	__CLSWArgs2.Buffer	7	0	178	4	5
+92	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+93	__CLSWArgs2.ReturnLen	1	1	180	1	5
+94	__CLSCSArgs2	8	0	3	4	4
+95	__CLSCSArgs2.Result	2	1	184	1	4
+96	__CLSCSArgs2.Port	1	1	185	1	4
+97	__CLSCSArgs2.BytesReady	1	1	186	1	4
+98	__CLSRArgs2	8	0	4	12	5
+99	__CLSRArgs2.Result	2	1	188	1	5
+100	__CLSRArgs2.Port	1	1	189	1	5
+101	__CLSRArgs2.Buffer	7	0	190	4	5
+102	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+103	__CLSRArgs2.BufferLen	1	1	192	1	5
+104	__CLSRArgs0	8	0	4	12	5
+105	__CLSRArgs0.Result	2	1	196	1	5
+106	__CLSRArgs0.Port	1	1	197	1	5
+107	__CLSRArgs0.Buffer	7	0	198	4	5
+108	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+109	__CLSRArgs0.BufferLen	1	1	200	1	5
+110	__CLSWArgs0	8	0	4	12	5
+111	__CLSWArgs0.Result	2	1	204	1	5
+112	__CLSWArgs0.Port	1	1	205	1	5
+113	__CLSWArgs0.Buffer	7	0	206	4	5
+114	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+115	__CLSWArgs0.ReturnLen	1	1	208	1	5
+116	__CLSCSArgs0	8	0	3	4	4
+117	__CLSCSArgs0.Result	2	1	212	1	4
+118	__CLSCSArgs0.Port	1	1	213	1	4
+119	__CLSCSArgs0.BytesReady	1	1	214	1	4
+120	__OUT_ABC	7	0	216	4	37
+121	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+122	__RLSLastGoodRead2	7	0	218	4	2
+123	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+124	__RLSReadBuf0	7	0	220	4	8
+125	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+126	__RLSBbufLSWrite1	7	0	222	4	2
+127	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+128	__RLSLastGoodRead0	7	0	224	4	2
+129	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+130	__RLSReadBuf2	7	0	226	4	12
+131	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	58	0	#line 58 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	59	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	58	2	#line 58 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	60	2	#line 60 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	61	2		set __main_7qG2_luz_7qG2_000, 40
-0	60	5	#line 60 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	64	5	#line 64 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	65	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
-0	64	8	#line 64 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	65	8	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	66	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
-0	3758	10	#line 3758 "NXCDefs.h"
-0	3759	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3758	12	#line 3758 "NXCDefs.h"
-0	3758	12	#line 3758 "NXCDefs.h"
-0	3759	12		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
-0	3758	14	#line 3758 "NXCDefs.h"
-0	3759	14		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
-0	3758	17	#line 3758 "NXCDefs.h"
-0	3759	17		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
-0	3758	20	#line 3758 "NXCDefs.h"
-0	3759	20		set __D0SetSensorLowspeed_inline_main, 11
-0	3758	23	#line 3758 "NXCDefs.h"
-0	3759	23		jmp __004__NXC_Label_37
-0	3758	25	#line 3758 "NXCDefs.h"
-0	3759	25		set __D0SetSensorLowspeed_inline_main, 10
-0	3758	28	#line 3758 "NXCDefs.h"
-0	3759	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
-0	3663	30	#line 3663 "NXCDefs.h"
-0	3664	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	3663	34	#line 3663 "NXCDefs.h"
-0	3759	34	#line 3759 "NXCDefs.h"
-0	3759	34	#line 3759 "NXCDefs.h"
-0	3760	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3759	36	#line 3759 "NXCDefs.h"
-0	3759	36	#line 3759 "NXCDefs.h"
-0	3760	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	3759	39	#line 3759 "NXCDefs.h"
-0	3676	39	#line 3676 "NXCDefs.h"
-0	3677	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
-0	3676	43	#line 3676 "NXCDefs.h"
-0	3760	43	#line 3760 "NXCDefs.h"
-0	3760	43	#line 3760 "NXCDefs.h"
-0	3761	43		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3760	45	#line 3760 "NXCDefs.h"
-0	3694	45	#line 3694 "NXCDefs.h"
-0	3695	45	#pragma macro 4
-0	3695	45		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3695	47		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4358	49	#line 4358 "NXCDefs.h"
-0	3694	49	#line 3694 "NXCDefs.h"
-0	3761	49	#line 3761 "NXCDefs.h"
-0	65	49	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	65	49	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	66	49		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
-0	65	52	#line 65 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	66	52	#line 66 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	67	52		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
-0	3758	54	#line 3758 "NXCDefs.h"
-0	3759	54		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3758	56	#line 3758 "NXCDefs.h"
-0	3758	56	#line 3758 "NXCDefs.h"
-0	3759	56		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
-0	3758	58	#line 3758 "NXCDefs.h"
-0	3759	58		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
-0	3758	61	#line 3758 "NXCDefs.h"
-0	3759	61		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
-0	3758	64	#line 3758 "NXCDefs.h"
-0	3759	64		set __D0SetSensorLowspeed_inline_main, 11
-0	3758	67	#line 3758 "NXCDefs.h"
-0	3759	67		jmp __005__NXC_Label_37
-0	3758	69	#line 3758 "NXCDefs.h"
-0	3759	69		set __D0SetSensorLowspeed_inline_main, 10
-0	3758	72	#line 3758 "NXCDefs.h"
-0	3759	72		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
-0	3663	74	#line 3663 "NXCDefs.h"
-0	3664	74		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	3663	78	#line 3663 "NXCDefs.h"
-0	3759	78	#line 3759 "NXCDefs.h"
-0	3759	78	#line 3759 "NXCDefs.h"
-0	3760	78		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3759	80	#line 3759 "NXCDefs.h"
-0	3759	80	#line 3759 "NXCDefs.h"
-0	3760	80		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	3759	83	#line 3759 "NXCDefs.h"
-0	3676	83	#line 3676 "NXCDefs.h"
-0	3677	83		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
-0	3676	87	#line 3676 "NXCDefs.h"
-0	3760	87	#line 3760 "NXCDefs.h"
-0	3760	87	#line 3760 "NXCDefs.h"
-0	3761	87		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3760	89	#line 3760 "NXCDefs.h"
-0	3694	89	#line 3694 "NXCDefs.h"
-0	3695	89	#pragma macro 4
-0	3695	89		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	3695	91		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4425	93	#line 4425 "NXCDefs.h"
-0	3694	93	#line 3694 "NXCDefs.h"
-0	3761	93	#line 3761 "NXCDefs.h"
-0	66	93	#line 66 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	66	93	#line 66 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	67	93		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 3
-0	66	96	#line 66 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	67	96	#line 67 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	68	96		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
-0	3729	98	#line 3729 "NXCDefs.h"
-0	3730	98		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
-0	3729	100	#line 3729 "NXCDefs.h"
-0	3729	100	#line 3729 "NXCDefs.h"
-0	3730	100		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
-0	3729	102	#line 3729 "NXCDefs.h"
-0	3730	102		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
-0	3729	105	#line 3729 "NXCDefs.h"
-0	3730	105		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
-0	3729	108	#line 3729 "NXCDefs.h"
-0	3730	108		set __D0SetSensorLight_inline_main, 5
-0	3729	111	#line 3729 "NXCDefs.h"
-0	3730	111		jmp __001__NXC_Label_5
-0	3729	113	#line 3729 "NXCDefs.h"
-0	3730	113		set __D0SetSensorLight_inline_main, 6
-0	3729	116	#line 3729 "NXCDefs.h"
-0	3730	116		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
-0	3663	118	#line 3663 "NXCDefs.h"
-0	3664	118		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
-0	3663	122	#line 3663 "NXCDefs.h"
-0	3730	122	#line 3730 "NXCDefs.h"
-0	3730	122	#line 3730 "NXCDefs.h"
-0	3731	122		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
-0	3730	124	#line 3730 "NXCDefs.h"
-0	3730	124	#line 3730 "NXCDefs.h"
-0	3731	124		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
-0	3730	127	#line 3730 "NXCDefs.h"
-0	3676	127	#line 3676 "NXCDefs.h"
-0	3677	127		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
-0	3676	131	#line 3676 "NXCDefs.h"
-0	3731	131	#line 3731 "NXCDefs.h"
-0	3731	131	#line 3731 "NXCDefs.h"
-0	3731	131	#line 3731 "NXCDefs.h"
-0	3694	131	#line 3694 "NXCDefs.h"
-0	3695	131	#pragma macro 4
-0	3695	131		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
-0	3695	133		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4520	135	#line 4520 "NXCDefs.h"
-0	3694	135	#line 3694 "NXCDefs.h"
-0	3732	135	#line 3732 "NXCDefs.h"
-0	67	135	#line 67 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	67	135	#line 67 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	68	135		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	67	138	#line 67 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	3718	138	#line 3718 "NXCDefs.h"
-0	3719	138	#pragma macro 6
-0	3719	138		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
-0	3719	142		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
-0	3719	146		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
-0	3719	148		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4535	150	#line 4535 "NXCDefs.h"
-0	3718	150	#line 3718 "NXCDefs.h"
-0	69	150	#line 69 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	69	150	#line 69 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	70	150	#pragma macro 30
-0	70	150		acquire __RLSBmutex2
-0	70	151		mov __RLSReadBuf2, __RLSBbufLSWrite1
-0	70	153		set __RLSBytesCount2, 2
-0	70	156		subcall __ReadLSBytes2, ____ReadLSBytes2_return
-0	70	158		index __D0main, __RLSReadBuf2, 65535
-0	70	162		index __RLSBytesCount2, __RLSReadBuf2, __constVal1
-0	70	166		add __D0main, __D0main, __D0main
-0	70	170		add __D0main, __D0main, __RLSBytesCount2
-0	70	174		release __RLSBmutex2
-0	4539	175	#line 4539 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	69	175	#line 69 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	70	175		mov __main_7qG2_cinicio_7qG2_000, __D0main
-0	69	177	#line 69 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	69	177	#line 69 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	72	177	#line 72 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	73	177		set __D0main, 1
-0	74	180	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	180		tst 5, __zfmain, __D0main
-0	74	183	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	183		brtst 4, __NXC_Label_539, __zfmain
-0	74	186	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	186	#pragma macro 36
-0	75	186		acquire __RLSBmutex0
-0	75	187		arrbuild __RLSReadBuf0, __constVal16, __constVal73
-0	75	192		set __RLSBytesCount0, 6
-0	75	195		subcall __ReadLSBytes0, ____ReadLSBytes0_return
-0	75	197		tst 4, __D0main, __RLSBResult0
-0	75	200		index __main_7qG2_ir_7qG2_000, __RLSReadBuf0, 65535
-0	75	204		release __RLSBmutex0
-0	4556	205	#line 4556 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	74	205	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	74	205	#line 74 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	205	#line 75 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	76	205	#pragma macro 30
-0	76	205		acquire __RLSBmutex2
-0	76	206		mov __RLSReadBuf2, __RLSBbufLSWrite1
-0	76	208		set __RLSBytesCount2, 2
-0	76	211		subcall __ReadLSBytes2, ____ReadLSBytes2_return
-0	76	213		index __D0main, __RLSReadBuf2, 65535
-0	76	217		index __RLSBytesCount2, __RLSReadBuf2, __constVal1
-0	76	221		add __D0main, __D0main, __D0main
-0	76	225		add __D0main, __D0main, __RLSBytesCount2
-0	76	229		release __RLSBmutex2
-0	4560	230	#line 4560 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	230	#line 75 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	230	#line 75 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	75	230	#line 75 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	76	230	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	76	230	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	76	230	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	76	230	#line 76 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	6	230	#line 6 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	6	230	#line 6 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7	230	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7	230	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	8	230		sub __brujula_7qG2_b_7qG2_000_inline_main, __D0main, __main_7qG2_cinicio_7qG2_000
-0	7	234	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7	234	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7	234	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	8	234		mov __signed_stack_001brujula_inline_main, __brujula_7qG2_b_7qG2_000_inline_main
-0	7	236	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7	236	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	8	236		set __D0brujula_inline_main, 0
-0	7	239	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	8	239		cmp 0, __zfbrujula_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
-0	7	243	#line 7 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	8	243		mov __D0brujula_inline_main, __zfbrujula_inline_main
-0	8	245	#line 8 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	9	245		brtst 4, __001__NXC_Label_493, __zfbrujula_inline_main
-0	9	248	#line 9 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	9	248	#line 9 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	10	248		add __brujula_7qG2_b_7qG2_000_inline_main, __brujula_7qG2_b_7qG2_000_inline_main, __constVal360
-0	9	252	#line 9 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	10	252	#line 10 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	11	252	#line 11 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	12	252		mov __main_7qG2_ba_7qG2_000, __brujula_7qG2_b_7qG2_000_inline_main
-0	11	254	#line 11 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	11	254	#line 11 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	77	254	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	77	254	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	77	254	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	77	254	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	78	254		getin __signed_stack_001main, __constVal1, 4
-0	77	258	#line 77 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	78	258	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	79	258		set __D0main, 0
-0	78	261	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	79	261		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	78	265	#line 78 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	79	265		mov __D0main, __zfmain
-0	80	267	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	267		brtst 4, __NXC_Label_552, __zfmain
-0	80	270	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	270		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	80	272	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	80	272	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	272		set __D0main, 20
-0	80	275	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	275		cmp 3, __zfmain, __signed_stack_001main, __D0main
-0	80	279	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	279		mov __D0main, __zfmain
-0	80	281	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	281		brtst 4, __NXC_Label_554, __zfmain
-0	80	284	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	284		mov __signed_stack_001main, __D0main
-0	80	286	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	286		mov __signed_stack_002main, __main_7qG2_ba_7qG2_000
-0	80	288	#line 80 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	288	#line 81 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	82	288		set __D0main, 340
-0	81	291	#line 81 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	82	291		cmp 2, __zfmain, __signed_stack_002main, __D0main
-0	81	295	#line 81 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	81	295	#line 81 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	82	295		and __D0main, __signed_stack_001main, __zfmain
-0	82	299	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	83	299		tst 5, __zfmain, __D0main
-0	82	302	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	83	302		brtst 4, __NXC_Label_555, __zfmain
-0	82	305	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	83	305		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	82	307	#line 82 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	83	307	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	84	307		set __D0main, 180
-0	83	310	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	84	310		cmp 3, __zfmain, __signed_stack_001main, __D0main
-0	83	314	#line 83 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	84	314		mov __D0main, __zfmain
-0	84	316	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	85	316		brtst 4, __NXC_Label_558, __zfmain
-0	84	319	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	85	319		set __alinearIzq_7qG2_v_7qG2_000, 70
-0	84	322	#line 84 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	85	322	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	86	322		subcall alinearIzq, __alinearIzq_return
-0	85	324	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	85	324	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	86	324		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	85	326	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	85	326	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	86	326		set __D0main, 350
-0	85	329	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	86	329		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	85	333	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	85	333	#line 85 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	86	333		not __D0main, __zfmain
-0	86	336	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	87	336		tst 5, __zfmain, __D0main
-0	86	339	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	87	339		brtst 4, __NXC_Label_562, __zfmain
-0	86	342	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	86	342	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	87	342		jmp __NXC_Label_561
-0	86	344	#line 86 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	89	344	#line 89 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	90	344		jmp __NXC_Label_567
-0	89	346	#line 89 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	90	346		set __alinearDer_7qG2_v_7qG2_000, 70
-0	89	349	#line 89 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	90	349	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	91	349		subcall alinearDer, __alinearDer_return
-0	90	351	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	90	351	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	91	351		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
-0	90	353	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	90	353	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	91	353		set __D0main, 5
-0	90	356	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	91	356		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	90	360	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	90	360	#line 90 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	91	360		not __D0main, __zfmain
-0	91	363	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	92	363		tst 5, __zfmain, __D0main
-0	91	366	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	92	366		brtst 4, __NXC_Label_571, __zfmain
-0	91	369	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	91	369	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	92	369		jmp __NXC_Label_570
-0	91	371	#line 91 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	94	371	#line 94 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	97	371	#line 97 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	98	371		jmp __NXC_Label_576
-0	97	373	#line 97 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	98	373		mov __D0main, __main_7qG2_ir_7qG2_000
-0	101	375		brcmp 4, __NXC_Label_580, __constVal1, __D0main
-0	102	379		brcmp 4, __NXC_Label_591, __constVal2, __D0main
-0	103	383		brcmp 4, __NXC_Label_602, __constVal3, __D0main
-0	104	387		brcmp 4, __NXC_Label_613, __constVal4, __D0main
-0	105	391		brcmp 4, __NXC_Label_624, __constVal5, __D0main
-0	106	395		brcmp 4, __NXC_Label_635, __constVal6, __D0main
-0	107	399		brcmp 4, __NXC_Label_646, __constVal7, __D0main
-0	108	403		brcmp 4, __NXC_Label_657, __constVal8, __D0main
-0	109	407		brcmp 4, __NXC_Label_668, __constVal9, __D0main
-0	110	411		brcmp 4, __NXC_Label_679, __constVal0, __D0main
-0	111	415		jmp __NXC_Label_579
-0	99	417	#line 99 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	99	417	#line 99 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	100	417		getin __signed_stack_001main, __constVal3, 4
-0	99	421	#line 99 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	100	421	#line 100 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	101	421		mov __D0main, __main_7qG2_luz_7qG2_000
-0	100	423	#line 100 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	101	423		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	100	427	#line 100 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	101	427		mov __D0main, __zfmain
-0	101	429	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	102	429		brtst 4, __NXC_Label_583, __zfmain
-0	101	432	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	102	432		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
-0	101	435	#line 101 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	102	435	#line 102 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	103	435		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
-0	102	437	#line 102 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	102	437	#line 102 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	103	437		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	102	440	#line 102 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	440	#line 7921 "NXCDefs.h"
-0	7922	440		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	443	#line 7921 "NXCDefs.h"
-0	103	443	#line 103 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	106	443	#line 106 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	107	443		jmp __NXC_Label_588
-0	106	445	#line 106 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	107	445		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
-0	106	448	#line 106 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	107	448	#line 107 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	108	448		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	107	450	#line 107 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	108	450	#line 108 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	110	450	#line 110 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	111	450		jmp __NXC_Label_579
-0	110	452	#line 110 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	111	452	#line 111 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	111	452	#line 111 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	112	452		getin __signed_stack_001main, __constVal3, 4
-0	111	456	#line 111 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	112	456	#line 112 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	113	456		mov __D0main, __main_7qG2_luz_7qG2_000
-0	112	458	#line 112 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	113	458		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	112	462	#line 112 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	113	462		mov __D0main, __zfmain
-0	113	464	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	114	464		brtst 4, __NXC_Label_594, __zfmain
-0	113	467	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	114	467		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 90
-0	113	470	#line 113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	114	470	#line 114 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	115	470		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
-0	114	472	#line 114 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	114	472	#line 114 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	115	472		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	114	475	#line 114 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	475	#line 7921 "NXCDefs.h"
-0	7922	475		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	478	#line 7921 "NXCDefs.h"
-0	115	478	#line 115 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	118	478	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	119	478		jmp __NXC_Label_599
-0	118	480	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	119	480		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
-0	118	483	#line 118 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	119	483	#line 119 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	120	483		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	119	485	#line 119 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	120	485	#line 120 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	124	485	#line 124 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	125	485		jmp __NXC_Label_579
-0	124	487	#line 124 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	125	487	#line 125 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	125	487	#line 125 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	126	487		getin __signed_stack_001main, __constVal3, 4
-0	125	491	#line 125 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	126	491	#line 126 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	127	491		mov __D0main, __main_7qG2_luz_7qG2_000
-0	126	493	#line 126 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	127	493		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	126	497	#line 126 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	127	497		mov __D0main, __zfmain
-0	127	499	#line 127 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	128	499		brtst 4, __NXC_Label_605, __zfmain
-0	127	502	#line 127 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	128	502		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
-0	127	505	#line 127 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	128	505	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	129	505		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	128	507	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	128	507	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	129	507		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	128	510	#line 128 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	510	#line 7921 "NXCDefs.h"
-0	7922	510		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	513	#line 7921 "NXCDefs.h"
-0	129	513	#line 129 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	132	513	#line 132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	133	513		jmp __NXC_Label_610
-0	132	515	#line 132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	133	515		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 85
-0	132	518	#line 132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	134	518	#line 134 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	135	518		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	134	520	#line 134 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	136	520	#line 136 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	137	520	#line 137 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	138	520		jmp __NXC_Label_579
-0	137	522	#line 137 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	138	522	#line 138 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	138	522	#line 138 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	139	522		getin __signed_stack_001main, __constVal3, 4
-0	138	526	#line 138 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	139	526	#line 139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	140	526		mov __D0main, __main_7qG2_luz_7qG2_000
-0	139	528	#line 139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	140	528		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	139	532	#line 139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	140	532		mov __D0main, __zfmain
-0	140	534	#line 140 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	141	534		brtst 4, __NXC_Label_616, __zfmain
-0	140	537	#line 140 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	141	537		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
-0	140	540	#line 140 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	141	540	#line 141 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	142	540		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	141	542	#line 141 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	141	542	#line 141 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	142	542		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	141	545	#line 141 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	545	#line 7921 "NXCDefs.h"
-0	7922	545		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	548	#line 7921 "NXCDefs.h"
-0	142	548	#line 142 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	145	548	#line 145 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	146	548		jmp __NXC_Label_621
-0	145	550	#line 145 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	146	550		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
-0	145	553	#line 145 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	147	553	#line 147 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	148	553		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	147	555	#line 147 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	149	555	#line 149 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	150	555	#line 150 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	151	555		jmp __NXC_Label_579
-0	150	557	#line 150 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	151	557	#line 151 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	151	557	#line 151 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	152	557		getin __signed_stack_001main, __constVal3, 4
-0	151	561	#line 151 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	152	561	#line 152 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	153	561		mov __D0main, __main_7qG2_luz_7qG2_000
-0	152	563	#line 152 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	153	563		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	152	567	#line 152 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	153	567		mov __D0main, __zfmain
-0	154	569	#line 154 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	155	569		brtst 4, __NXC_Label_627, __zfmain
-0	154	572	#line 154 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	155	572		set __atras_7qG2_v_7qG2_000, 90
-0	154	575	#line 154 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	155	575	#line 155 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	156	575		subcall atras, __atras_return
-0	155	577	#line 155 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	155	577	#line 155 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	156	577		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	155	580	#line 155 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	580	#line 7921 "NXCDefs.h"
-0	7922	580		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	583	#line 7921 "NXCDefs.h"
-0	156	583	#line 156 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	159	583	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	160	583		jmp __NXC_Label_632
-0	159	585	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	160	585		set __adelante_7qG2_v_7qG2_000, 90
-0	159	588	#line 159 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	160	588	#line 160 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	161	588		subcall adelante, __adelante_return
-0	160	590	#line 160 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	161	590	#line 161 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	162	590	#line 162 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	163	590		jmp __NXC_Label_579
-0	162	592	#line 162 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	163	592	#line 163 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	163	592	#line 163 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	164	592		getin __signed_stack_001main, __constVal3, 4
-0	163	596	#line 163 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	164	596	#line 164 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	165	596		mov __D0main, __main_7qG2_luz_7qG2_000
-0	164	598	#line 164 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	165	598		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	164	602	#line 164 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	165	602		mov __D0main, __zfmain
-0	166	604	#line 166 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	167	604		brtst 4, __NXC_Label_638, __zfmain
-0	166	607	#line 166 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	167	607		set __atras_7qG2_v_7qG2_000, 90
-0	166	610	#line 166 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	167	610	#line 167 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	168	610		subcall atras, __atras_return
-0	167	612	#line 167 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	167	612	#line 167 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	168	612		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	167	615	#line 167 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	615	#line 7921 "NXCDefs.h"
-0	7922	615		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	618	#line 7921 "NXCDefs.h"
-0	168	618	#line 168 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	171	618	#line 171 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	172	618		jmp __NXC_Label_643
-0	171	620	#line 171 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	172	620		set __adelante_7qG2_v_7qG2_000, 90
-0	171	623	#line 171 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	172	623	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	173	623		subcall adelante, __adelante_return
-0	172	625	#line 172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	173	625	#line 173 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	174	625	#line 174 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	175	625		jmp __NXC_Label_579
-0	174	627	#line 174 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	175	627	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	175	627	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	176	627		getin __signed_stack_001main, __constVal3, 4
-0	175	631	#line 175 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	176	631	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	177	631		mov __D0main, __main_7qG2_luz_7qG2_000
-0	176	633	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	177	633		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	176	637	#line 176 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	177	637		mov __D0main, __zfmain
-0	177	639	#line 177 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	178	639		brtst 4, __NXC_Label_649, __zfmain
-0	177	642	#line 177 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	178	642		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
-0	177	645	#line 177 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	178	645	#line 178 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	179	645		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	178	647	#line 178 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	178	647	#line 178 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	179	647		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	178	650	#line 178 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	650	#line 7921 "NXCDefs.h"
-0	7922	650		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	653	#line 7921 "NXCDefs.h"
-0	179	653	#line 179 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	182	653	#line 182 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	183	653		jmp __NXC_Label_654
-0	182	655	#line 182 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	183	655		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 85
-0	182	658	#line 182 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	183	658	#line 183 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	184	658		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
-0	183	660	#line 183 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	186	660	#line 186 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	187	660	#line 187 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	188	660		jmp __NXC_Label_579
-0	187	662	#line 187 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	188	662	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	188	662	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	189	662		getin __signed_stack_001main, __constVal3, 4
-0	188	666	#line 188 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	189	666	#line 189 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	190	666		mov __D0main, __main_7qG2_luz_7qG2_000
-0	189	668	#line 189 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	190	668		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	189	672	#line 189 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	190	672		mov __D0main, __zfmain
-0	190	674	#line 190 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	191	674		brtst 4, __NXC_Label_660, __zfmain
-0	190	677	#line 190 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	191	677		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
-0	190	680	#line 190 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	191	680	#line 191 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	192	680		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	191	682	#line 191 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	191	682	#line 191 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	192	682		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	191	685	#line 191 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	685	#line 7921 "NXCDefs.h"
-0	7922	685		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	688	#line 7921 "NXCDefs.h"
-0	192	688	#line 192 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	196	688	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	197	688		jmp __NXC_Label_665
-0	196	690	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	197	690		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
-0	196	693	#line 196 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	197	693	#line 197 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	198	693		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	197	695	#line 197 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	198	695	#line 198 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	201	695	#line 201 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	202	695		jmp __NXC_Label_579
-0	201	697	#line 201 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	203	697	#line 203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	203	697	#line 203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	204	697		getin __signed_stack_001main, __constVal3, 4
-0	203	701	#line 203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	204	701	#line 204 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	205	701		mov __D0main, __main_7qG2_luz_7qG2_000
-0	204	703	#line 204 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	205	703		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	204	707	#line 204 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	205	707		mov __D0main, __zfmain
-0	205	709	#line 205 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	206	709		brtst 4, __NXC_Label_671, __zfmain
-0	205	712	#line 205 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	206	712		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 90
-0	205	715	#line 205 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	206	715	#line 206 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	207	715		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
-0	206	717	#line 206 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	206	717	#line 206 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	207	717		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	206	720	#line 206 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	720	#line 7921 "NXCDefs.h"
-0	7922	720		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	723	#line 7921 "NXCDefs.h"
-0	207	723	#line 207 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	211	723	#line 211 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	212	723		jmp __NXC_Label_676
-0	211	725	#line 211 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	212	725		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
-0	211	728	#line 211 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	212	728	#line 212 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	213	728		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	212	730	#line 212 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	213	730	#line 213 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	214	730	#line 214 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	215	730		jmp __NXC_Label_579
-0	214	732	#line 214 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	215	732	#line 215 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	215	732	#line 215 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	216	732		getin __signed_stack_001main, __constVal3, 4
-0	215	736	#line 215 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	216	736	#line 216 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	217	736		mov __D0main, __main_7qG2_luz_7qG2_000
-0	216	738	#line 216 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	217	738		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	216	742	#line 216 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	217	742		mov __D0main, __zfmain
-0	217	744	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	218	744		brtst 4, __NXC_Label_682, __zfmain
-0	217	747	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	218	747		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 90
-0	217	750	#line 217 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	218	750	#line 218 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	219	750		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
-0	218	752	#line 218 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	218	752	#line 218 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	219	752		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
-0	218	755	#line 218 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	7921	755	#line 7921 "NXCDefs.h"
-0	7922	755		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	758	#line 7921 "NXCDefs.h"
-0	219	758	#line 219 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	223	758	#line 223 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	224	758		jmp __NXC_Label_687
-0	223	760	#line 223 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	224	760		set __diagonalInferiorDer_7qG2_v_7qG2_000, 85
-0	223	763	#line 223 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	224	763	#line 224 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	225	763		subcall diagonalInferiorDer, __diagonalInferiorDer_return
-0	224	765	#line 224 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	225	765	#line 225 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	226	765	#line 226 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	226	765	#line 226 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	228	765	#line 228 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	229	765	#line 229 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	231	765	#line 231 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	232	765		jmp __NXC_Label_690
-0	232	767	#line 232 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	233	767	#pragma macro 7
-0	233	767		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5328	790	#line 5328 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	232	790	#line 232 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	234	790	#line 234 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	236	790	#line 236 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	237	790		jmp __NXC_Label_538
-0	236	792	#line 236 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-0	237	792		exit -1, -1
-1	4885	0		setin __constVal1, __ResetSensorPort, 5
-1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-1	4889	11		subret ____ResetSensorSubroutine_return
-2	5672	0	#pragma macro 25
-2	5672	0		acquire __CLSWMutex0
-2	5672	1		set __CLSWArgs0.Port, 0
-2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
-2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
-2	5672	8		syscall 21, __CLSWArgs0
-2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
-2	5672	13		release __CLSWMutex0
-2	5673	14	#line 5673 "NXTDefs.h"
-2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
-2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
-2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
-2	5677	24		set __RLSBIterations0, 4
-2	5679	27	#pragma macro 23
-2	5679	27		acquire __CLSCSMutex0
-2	5679	28		set __CLSCSArgs0.Port, 0
-2	5679	31		syscall 23, __CLSCSArgs0
-2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
-2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
-2	5679	38		release __CLSCSMutex0
-2	5679	39	#line 5679 "NXTDefs.h"
-2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
-2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
-2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
-2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
-2	5685	52		wait2 NA, __constVal15
-2	5686	55		jmp __RLSBDoCheckStatus0
-2	5689	57	#pragma macro 25
-2	5689	57		acquire __CLSRMutex0
-2	5689	58		set __CLSRArgs0.Port, 0
-2	5689	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
-2	5689	63		syscall 22, __CLSRArgs0
-2	5689	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
-2	5689	68		mov __RLSBResult0, __CLSRArgs0.Result
-2	5689	70		release __CLSRMutex0
-2	5689	71	#line 5689 "NXTDefs.h"
-2	5690	71		brtst 5, __RLSBError0, __RLSBResult0
-2	5691	74		mov __RLSLastGoodRead0, __RLSReadBuf0
-2	5692	76		jmp __RLSBDone0
-2	5694	78		mov __RLSReadBuf0, __RLSLastGoodRead0
-2	5696	80		arrsize __RLSBytesCount0, __RLSReadBuf0
-2	5698	83		subret ____ReadLSBytes0_return
-3	5747	0	#pragma macro 25
-3	5747	0		acquire __CLSWMutex2
-3	5747	1		set __CLSWArgs2.Port, 2
-3	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
-3	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
-3	5747	8		syscall 21, __CLSWArgs2
-3	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
-3	5747	13		release __CLSWMutex2
-3	5747	14	#line 5747 "NXTDefs.h"
-3	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
-3	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
-3	5750	21		brtst 5, __RLSBError2, __RLSBResult2
-3	5751	24		set __RLSBIterations2, 4
-3	5753	27	#pragma macro 23
-3	5753	27		acquire __CLSCSMutex2
-3	5753	28		set __CLSCSArgs2.Port, 2
-3	5753	31		syscall 23, __CLSCSArgs2
-3	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
-3	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
-3	5753	38		release __CLSCSMutex2
-3	5753	39	#line 5753 "NXTDefs.h"
-3	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
-3	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
-3	5756	46		brtst 0, __RLSBError2, __RLSBResult2
-3	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
-3	5759	52		wait2 NA, __constVal15
-3	5760	55		jmp __RLSBDoCheckStatus2
-3	5763	57	#pragma macro 25
-3	5763	57		acquire __CLSRMutex2
-3	5763	58		set __CLSRArgs2.Port, 2
-3	5763	61		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
-3	5763	63		syscall 22, __CLSRArgs2
-3	5763	66		mov __RLSReadBuf2, __CLSRArgs2.Buffer
-3	5763	68		mov __RLSBResult2, __CLSRArgs2.Result
-3	5763	70		release __CLSRMutex2
-3	5763	71	#line 5763 "NXTDefs.h"
-3	5764	71		brtst 5, __RLSBError2, __RLSBResult2
-3	5765	74		mov __RLSLastGoodRead2, __RLSReadBuf2
-3	5766	76		jmp __RLSBDone2
-3	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
-3	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
-3	5772	83		subret ____ReadLSBytes2_return
-4	15	0	#line 15 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	16	0	#pragma macro 7
-4	16	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	4028	23	#line 4028 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	15	23	#line 15 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	15	23	#line 15 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	16	23		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
-4	16	25	#line 16 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	17	25	#pragma macro 7
-4	17	25		setout __constVal0, 2, __D0diagonalSuperiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	4035	48	#line 4035 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	16	48	#line 16 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	16	48	#line 16 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	17	48		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
-4	17	50	#line 17 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	18	50	#pragma macro 10
-4	18	50		acquire __OnRevMutex
-4	18	51		neg __OnRev_Tmp, __D0diagonalSuperiorIzq
-4	18	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	18	77		release __OnRevMutex
-4	4042	78	#line 4042 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	17	78	#line 17 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	18	78	#line 18 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-4	19	78		subret __diagonalSuperiorIzq_return
-5	20	0	#line 20 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	21	0	#pragma macro 7
-5	21	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	4054	23	#line 4054 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	20	23	#line 20 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	20	23	#line 20 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	21	23		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
-5	21	25	#line 21 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	22	25	#pragma macro 7
-5	22	25		setout __constVal2, 2, __D0diagonalSuperiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	4061	48	#line 4061 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	21	48	#line 21 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	21	48	#line 21 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	22	48		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
-5	22	50	#line 22 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	23	50	#pragma macro 10
-5	23	50		acquire __OnRevMutex
-5	23	51		neg __OnRev_Tmp, __D0diagonalSuperiorDer
-5	23	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	23	77		release __OnRevMutex
-5	4068	78	#line 4068 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	22	78	#line 22 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	23	78	#line 23 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-5	24	78		subret __diagonalSuperiorDer_return
-6	25	0	#line 25 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	26	0	#pragma macro 7
-6	26	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4080	23	#line 4080 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	25	23	#line 25 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	25	23	#line 25 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	26	23		mov __D0adelante, __adelante_7qG2_v_7qG2_000
-6	26	25	#line 26 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	27	25	#pragma macro 7
-6	27	25		setout __constVal0, 2, __D0adelante, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	4087	48	#line 4087 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	26	48	#line 26 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	26	48	#line 26 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	27	48		mov __D0adelante, __adelante_7qG2_v_7qG2_000
-6	27	50	#line 27 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	28	50	#pragma macro 10
-6	28	50		acquire __OnRevMutex
-6	28	51		neg __OnRev_Tmp, __D0adelante
-6	28	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	28	77		release __OnRevMutex
-6	4094	78	#line 4094 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	27	78	#line 27 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	28	78	#line 28 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-6	29	78		subret __adelante_return
-7	30	0	#line 30 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	31	0	#pragma macro 7
-7	31	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	4106	23	#line 4106 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	30	23	#line 30 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	30	23	#line 30 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	31	23		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
-7	31	25	#line 31 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	32	25	#pragma macro 7
-7	32	25		setout __constVal1, 2, __D0diagonalInferiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	4113	48	#line 4113 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	31	48	#line 31 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	31	48	#line 31 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	32	48		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
-7	32	50	#line 32 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	33	50	#pragma macro 10
-7	33	50		acquire __OnRevMutex
-7	33	51		neg __OnRev_Tmp, __D0diagonalInferiorIzq
-7	33	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	33	77		release __OnRevMutex
-7	4120	78	#line 4120 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	32	78	#line 32 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	33	78	#line 33 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-7	34	78		subret __diagonalInferiorIzq_return
-8	35	0	#line 35 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	36	0	#pragma macro 7
-8	36	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	4132	23	#line 4132 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	35	23	#line 35 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	35	23	#line 35 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	36	23		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
-8	36	25	#line 36 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	37	25	#pragma macro 7
-8	37	25		setout __constVal2, 2, __D0diagonalInferiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	4139	48	#line 4139 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	36	48	#line 36 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	36	48	#line 36 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	37	48		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
-8	37	50	#line 37 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	38	50	#pragma macro 10
-8	38	50		acquire __OnRevMutex
-8	38	51		neg __OnRev_Tmp, __D0diagonalInferiorDer
-8	38	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-8	38	77		release __OnRevMutex
-8	4146	78	#line 4146 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	37	78	#line 37 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	38	78	#line 38 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-8	39	78		subret __diagonalInferiorDer_return
-9	40	0	#line 40 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	41	0	#pragma macro 7
-9	41	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	4158	23	#line 4158 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	40	23	#line 40 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	40	23	#line 40 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	41	23		mov __D0atras, __atras_7qG2_v_7qG2_000
-9	41	25	#line 41 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	42	25	#pragma macro 7
-9	42	25		setout __constVal1, 2, __D0atras, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	4165	48	#line 4165 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	41	48	#line 41 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	41	48	#line 41 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	42	48		mov __D0atras, __atras_7qG2_v_7qG2_000
-9	43	50	#line 43 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	44	50	#pragma macro 10
-9	44	50		acquire __OnRevMutex
-9	44	51		neg __OnRev_Tmp, __D0atras
-9	44	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	44	77		release __OnRevMutex
-9	4172	78	#line 4172 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	43	78	#line 43 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	45	78	#line 45 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-9	46	78		subret __atras_return
-10	47	0	#line 47 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	48	0	#pragma macro 7
-10	48	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-10	4184	23	#line 4184 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	47	23	#line 47 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	47	23	#line 47 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	48	23		mov __D0alinearIzq, __alinearIzq_7qG2_v_7qG2_000
-10	48	25	#line 48 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	49	25	#pragma macro 7
-10	49	25		setout __OUT_ABC, 2, __D0alinearIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-10	4191	48	#line 4191 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	48	48	#line 48 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	49	48	#line 49 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-10	50	48		subret __alinearIzq_return
-11	51	0	#line 51 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	52	0	#pragma macro 7
-11	52	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-11	4203	23	#line 4203 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	51	23	#line 51 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	51	23	#line 51 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	52	23		mov __D0alinearDer, __alinearDer_7qG2_v_7qG2_000
-11	52	25	#line 52 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	53	25	#pragma macro 10
-11	53	25		acquire __OnRevMutex
-11	53	26		neg __OnRev_Tmp, __D0alinearDer
-11	53	29		setout __OUT_ABC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-11	53	52		release __OnRevMutex
-11	4210	53	#line 4210 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	52	53	#line 52 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	55	53	#line 55 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-11	56	53		subret __alinearDer_return
-12	237	0	#line 237 "C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc"
-12	238	0		subret ____initialize_global_data_return
+0	76	0	#line 76 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	77	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	76	2	#line 76 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	79	2	#line 79 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	80	2		set __main_7qG2_luz_7qG2_000, 40
+0	79	5	#line 79 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	83	5	#line 83 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	84	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	83	8	#line 83 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	84	8	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	85	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	10	#line 4342 "NXCDefs.h"
+0	4343	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	12	#line 4342 "NXCDefs.h"
+0	4342	12	#line 4342 "NXCDefs.h"
+0	4343	12		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4343	23		jmp __004__ASM_Label_37
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	28	#line 4342 "NXCDefs.h"
+0	4342	28	#line 4342 "NXCDefs.h"
+0	4343	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	30	#line 4247 "NXCDefs.h"
+0	4248	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	34	#line 4247 "NXCDefs.h"
+0	4343	34	#line 4343 "NXCDefs.h"
+0	4343	34	#line 4343 "NXCDefs.h"
+0	4344	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4344	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	39	#line 4343 "NXCDefs.h"
+0	4260	39	#line 4260 "NXCDefs.h"
+0	4261	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	43	#line 4260 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4345	43		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	45	#line 4344 "NXCDefs.h"
+0	4278	45	#line 4278 "NXCDefs.h"
+0	4279	45	#pragma macro 4
+0	4279	45		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	47		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4357	49	#line 4357 "NXCDefs.h"
+0	4278	49	#line 4278 "NXCDefs.h"
+0	4345	49	#line 4345 "NXCDefs.h"
+0	84	49	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	84	49	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	85	49		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
+0	84	52	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	85	52	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	86	52		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	54	#line 4342 "NXCDefs.h"
+0	4343	54		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	56	#line 4342 "NXCDefs.h"
+0	4342	56	#line 4342 "NXCDefs.h"
+0	4343	56		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	58	#line 4342 "NXCDefs.h"
+0	4343	58		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	61	#line 4342 "NXCDefs.h"
+0	4343	61		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4343	64		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	67	#line 4342 "NXCDefs.h"
+0	4342	67	#line 4342 "NXCDefs.h"
+0	4343	67		jmp __005__ASM_Label_37
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4343	69		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	72	#line 4342 "NXCDefs.h"
+0	4342	72	#line 4342 "NXCDefs.h"
+0	4343	72		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	74	#line 4247 "NXCDefs.h"
+0	4248	74		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	78	#line 4247 "NXCDefs.h"
+0	4343	78	#line 4343 "NXCDefs.h"
+0	4343	78	#line 4343 "NXCDefs.h"
+0	4344	78		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4344	80		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	83	#line 4343 "NXCDefs.h"
+0	4260	83	#line 4260 "NXCDefs.h"
+0	4261	83		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	87	#line 4260 "NXCDefs.h"
+0	4344	87	#line 4344 "NXCDefs.h"
+0	4344	87	#line 4344 "NXCDefs.h"
+0	4345	87		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	89	#line 4344 "NXCDefs.h"
+0	4278	89	#line 4278 "NXCDefs.h"
+0	4279	89	#pragma macro 4
+0	4279	89		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	91		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4420	93	#line 4420 "NXCDefs.h"
+0	4278	93	#line 4278 "NXCDefs.h"
+0	4345	93	#line 4345 "NXCDefs.h"
+0	85	93	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	85	93	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	86	93		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 3
+0	85	96	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	86	96	#line 86 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	87	96		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	98	#line 4313 "NXCDefs.h"
+0	4314	98		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	100	#line 4313 "NXCDefs.h"
+0	4313	100	#line 4313 "NXCDefs.h"
+0	4314	100		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	102	#line 4313 "NXCDefs.h"
+0	4314	102		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	105	#line 4313 "NXCDefs.h"
+0	4314	105		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	108	#line 4313 "NXCDefs.h"
+0	4314	108		set __DU0SetSensorLight_inline_main, 5
+0	4313	111	#line 4313 "NXCDefs.h"
+0	4313	111	#line 4313 "NXCDefs.h"
+0	4314	111		jmp __001__ASM_Label_5
+0	4313	113	#line 4313 "NXCDefs.h"
+0	4314	113		set __DU0SetSensorLight_inline_main, 6
+0	4313	116	#line 4313 "NXCDefs.h"
+0	4313	116	#line 4313 "NXCDefs.h"
+0	4314	116		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	118	#line 4247 "NXCDefs.h"
+0	4248	118		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	122	#line 4247 "NXCDefs.h"
+0	4314	122	#line 4314 "NXCDefs.h"
+0	4314	122	#line 4314 "NXCDefs.h"
+0	4315	122		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	124	#line 4314 "NXCDefs.h"
+0	4314	124	#line 4314 "NXCDefs.h"
+0	4315	124		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	127	#line 4314 "NXCDefs.h"
+0	4260	127	#line 4260 "NXCDefs.h"
+0	4261	127		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	131	#line 4260 "NXCDefs.h"
+0	4315	131	#line 4315 "NXCDefs.h"
+0	4315	131	#line 4315 "NXCDefs.h"
+0	4315	131	#line 4315 "NXCDefs.h"
+0	4278	131	#line 4278 "NXCDefs.h"
+0	4279	131	#pragma macro 4
+0	4279	131		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	133		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4511	135	#line 4511 "NXCDefs.h"
+0	4278	135	#line 4278 "NXCDefs.h"
+0	4316	135	#line 4316 "NXCDefs.h"
+0	86	135	#line 86 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	86	135	#line 86 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	87	135		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	86	138	#line 86 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	4302	138	#line 4302 "NXCDefs.h"
+0	4303	138	#pragma macro 6
+0	4303	138		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	4303	142		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4303	146		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	4303	148		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4524	150	#line 4524 "NXCDefs.h"
+0	4302	150	#line 4302 "NXCDefs.h"
+0	88	150	#line 88 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	88	150	#line 88 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	89	150	#pragma macro 30
+0	89	150		acquire __RLSBmutex2
+0	89	151		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	89	153		set __RLSBytesCount2, 2
+0	89	156		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	89	158		index __D0main, __RLSReadBuf2, 65535
+0	89	162		index __RLSBytesCount2, __RLSReadBuf2, __constVal1
+0	89	166		add __D0main, __D0main, __D0main
+0	89	170		add __D0main, __D0main, __RLSBytesCount2
+0	89	174		release __RLSBmutex2
+0	4528	175	#line 4528 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	88	175	#line 88 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	89	175		mov __main_7qG2_cinicio_7qG2_000, __D0main
+0	88	177	#line 88 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	88	177	#line 88 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	92	177	#line 92 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	93	177		set __D0main, 1
+0	94	180	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	95	180		tst 5, __D0main, __D0main
+0	94	183	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	95	183		brtst 4, __ASM_Label_539, __D0main
+0	94	186	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	95	186	#pragma macro 36
+0	95	186		acquire __RLSBmutex0
+0	95	187		arrbuild __RLSReadBuf0, __constVal16, __constVal73
+0	95	192		set __RLSBytesCount0, 6
+0	95	195		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	95	197		tst 4, __D0main, __RLSBResult0
+0	95	200		index __main_7qG2_ir_7qG2_000, __RLSReadBuf0, 65535
+0	95	204		release __RLSBmutex0
+0	4543	205	#line 4543 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	94	205	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	94	205	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	95	205	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	96	205	#pragma macro 30
+0	96	205		acquire __RLSBmutex2
+0	96	206		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	96	208		set __RLSBytesCount2, 2
+0	96	211		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	96	213		index __D0main, __RLSReadBuf2, 65535
+0	96	217		index __RLSBytesCount2, __RLSReadBuf2, __constVal1
+0	96	221		add __D0main, __D0main, __D0main
+0	96	225		add __D0main, __D0main, __RLSBytesCount2
+0	96	229		release __RLSBmutex2
+0	4547	230	#line 4547 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	95	230	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	96	230		mov __main_7qG2_cactual_7qG2_000, __D0main
+0	95	232	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	95	232	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	96	232	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	97	232		mov __brujula_7qG2_compas_7qG2_000_inline_main, __main_7qG2_cinicio_7qG2_000
+0	96	234	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	96	234	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	96	234	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	7	234	#line 7 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8	234		mov __signed_stack_001brujula_inline_main, __main_7qG2_cactual_7qG2_000
+0	7	236	#line 7 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8	236	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	9	236		mov __D0brujula_inline_main, __brujula_7qG2_compas_7qG2_000_inline_main
+0	8	238	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	9	238		sub __brujula_7qG2_b_7qG2_000_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
+0	8	242	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8	242	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8	242	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	9	242		mov __signed_stack_001brujula_inline_main, __brujula_7qG2_b_7qG2_000_inline_main
+0	8	244	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	9	244	#line 9 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	10	244		set __D0brujula_inline_main, 0
+0	9	247	#line 9 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	10	247		cmp 0, __D0brujula_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
+0	11	251	#line 11 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	12	251		brtst 4, __001__ASM_Label_493, __D0brujula_inline_main
+0	13	254	#line 13 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	14	254		set __D0brujula_inline_main, 360
+0	13	257	#line 13 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	14	257		add __brujula_7qG2_b_7qG2_000_inline_main, __brujula_7qG2_b_7qG2_000_inline_main, __D0brujula_inline_main
+0	13	261	#line 13 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	15	261	#line 15 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	16	261	#line 16 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	17	261		mov __main_7qG2_ba_7qG2_000, __brujula_7qG2_b_7qG2_000_inline_main
+0	16	263	#line 16 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	16	263	#line 16 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	97	263	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	97	263	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	97	263	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	97	263	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	98	263		getin __signed_stack_001main, __constVal1, 4
+0	97	267	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	98	267	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	99	267		set __D0main, 0
+0	98	270	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	99	270		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	99	274	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	274		brtst 4, __ASM_Label_552, __D0main
+0	99	277	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	277		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	99	279	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	99	279	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	279		set __D0main, 20
+0	99	282	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	282		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	99	286	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	286		brtst 4, __ASM_Label_554, __D0main
+0	99	289	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	289		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	99	291	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	100	291	#line 100 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	101	291		set __D0main, 335
+0	100	294	#line 100 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	101	294		cmp 2, __D0main, __signed_stack_001main, __D0main
+0	101	298	#line 101 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	102	298		brtst 4, __ASM_Label_555, __D0main
+0	101	301	#line 101 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	102	301		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	101	303	#line 101 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	102	303	#line 102 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	103	303		set __D0main, 115
+0	102	306	#line 102 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	103	306		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	104	310	#line 104 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	105	310		brtst 4, __ASM_Label_558, __D0main
+0	105	313	#line 105 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	106	313	#pragma macro 7
+0	106	313		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4685	336	#line 4685 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	105	336	#line 105 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	105	336	#line 105 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	106	336		set __alinearIzq_7qG2_v_7qG2_000, 80
+0	105	339	#line 105 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	107	339	#line 107 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	108	339		subcall alinearIzq, __alinearIzq_return
+0	107	341	#line 107 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	112	341	#line 112 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	113	341		jmp __ASM_Label_561
+0	113	343	#line 113 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	114	343	#pragma macro 7
+0	114	343		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4698	366	#line 4698 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	113	366	#line 113 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	113	366	#line 113 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	114	366		set __alinearDer_7qG2_v_7qG2_000, 85
+0	113	369	#line 113 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	115	369	#line 115 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	116	369		subcall alinearDer, __alinearDer_return
+0	115	371	#line 115 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	118	371	#line 118 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	121	371	#line 121 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	122	371		jmp __ASM_Label_564
+0	122	373	#line 122 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	123	373		mov __D0main, __main_7qG2_ir_7qG2_000
+0	126	375		brcmp 4, __ASM_Label_568, __constVal1, __D0main
+0	127	379		brcmp 4, __ASM_Label_581, __constVal2, __D0main
+0	128	383		brcmp 4, __ASM_Label_594, __constVal3, __D0main
+0	129	387		brcmp 4, __ASM_Label_607, __constVal4, __D0main
+0	130	391		brcmp 4, __ASM_Label_620, __constVal5, __D0main
+0	131	395		brcmp 4, __ASM_Label_633, __constVal6, __D0main
+0	132	399		brcmp 4, __ASM_Label_646, __constVal7, __D0main
+0	133	403		brcmp 4, __ASM_Label_659, __constVal8, __D0main
+0	134	407		brcmp 4, __ASM_Label_672, __constVal9, __D0main
+0	135	411		brcmp 4, __ASM_Label_685, __constVal0, __D0main
+0	136	415		jmp __ASM_Label_567
+0	126	417	#line 126 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	126	417	#line 126 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	127	417		getin __signed_stack_001main, __constVal3, 4
+0	126	421	#line 126 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	127	421	#line 127 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	128	421		mov __D0main, __main_7qG2_luz_7qG2_000
+0	127	423	#line 127 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	128	423		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	129	427	#line 129 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	130	427		brtst 4, __ASM_Label_571, __D0main
+0	130	430	#line 130 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	131	430	#pragma macro 7
+0	131	430		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4744	453	#line 4744 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	130	453	#line 130 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	130	453	#line 130 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	131	453		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	130	456	#line 130 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	131	456	#line 131 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	132	456		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	131	458	#line 131 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	131	458	#line 131 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	132	458		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	131	461	#line 131 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	461	#line 8551 "NXCDefs.h"
+0	8552	461		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	464	#line 8551 "NXCDefs.h"
+0	132	464	#line 132 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	133	464	#line 133 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	134	464	#pragma macro 7
+0	134	464		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4766	487	#line 4766 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	133	487	#line 133 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	133	487	#line 133 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	134	487		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	133	490	#line 133 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	490	#line 8551 "NXCDefs.h"
+0	8552	490		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	493	#line 8551 "NXCDefs.h"
+0	135	493	#line 135 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	140	493	#line 140 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	141	493		jmp __ASM_Label_578
+0	141	495	#line 141 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	142	495	#pragma macro 7
+0	142	495		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4780	518	#line 4780 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	141	518	#line 141 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	141	518	#line 141 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	142	518		set __diagonalInferiorDer_7qG2_v_7qG2_000, 80
+0	141	521	#line 141 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	143	521	#line 143 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	144	521		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	143	523	#line 143 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	145	523	#line 145 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	147	523	#line 147 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	148	523		jmp __ASM_Label_567
+0	147	525	#line 147 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	149	525	#line 149 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	149	525	#line 149 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	150	525		getin __signed_stack_001main, __constVal3, 4
+0	149	529	#line 149 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	150	529	#line 150 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	151	529		mov __D0main, __main_7qG2_luz_7qG2_000
+0	150	531	#line 150 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	151	531		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	152	535	#line 152 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	153	535		brtst 4, __ASM_Label_584, __D0main
+0	153	538	#line 153 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	154	538	#pragma macro 7
+0	154	538		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4811	561	#line 4811 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	153	561	#line 153 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	153	561	#line 153 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	154	561		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	153	564	#line 153 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	154	564	#line 154 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	155	564		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	154	566	#line 154 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	154	566	#line 154 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	155	566		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	154	569	#line 154 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	569	#line 8551 "NXCDefs.h"
+0	8552	569		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	572	#line 8551 "NXCDefs.h"
+0	155	572	#line 155 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	156	572	#line 156 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	157	572	#pragma macro 7
+0	157	572		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4829	595	#line 4829 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	156	595	#line 156 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	156	595	#line 156 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	157	595		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	156	598	#line 156 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	598	#line 8551 "NXCDefs.h"
+0	8552	598		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	601	#line 8551 "NXCDefs.h"
+0	158	601	#line 158 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	163	601	#line 163 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	164	601		jmp __ASM_Label_591
+0	164	603	#line 164 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	165	603	#pragma macro 7
+0	165	603		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4843	626	#line 4843 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	164	626	#line 164 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	164	626	#line 164 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	165	626		set __diagonalInferiorDer_7qG2_v_7qG2_000, 80
+0	164	629	#line 164 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	166	629	#line 166 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	167	629		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	166	631	#line 166 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	168	631	#line 168 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	170	631	#line 170 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	171	631		jmp __ASM_Label_567
+0	170	633	#line 170 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	172	633	#line 172 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	172	633	#line 172 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	173	633		getin __signed_stack_001main, __constVal3, 4
+0	172	637	#line 172 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	173	637	#line 173 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	174	637		mov __D0main, __main_7qG2_luz_7qG2_000
+0	173	639	#line 173 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	174	639		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	175	643	#line 175 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	176	643		brtst 4, __ASM_Label_597, __D0main
+0	176	646	#line 176 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	177	646	#pragma macro 7
+0	177	646		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4874	669	#line 4874 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	176	669	#line 176 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	176	669	#line 176 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	177	669		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	176	672	#line 176 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	177	672	#line 177 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	178	672		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	177	674	#line 177 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	177	674	#line 177 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	178	674		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	177	677	#line 177 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	677	#line 8551 "NXCDefs.h"
+0	8552	677		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	680	#line 8551 "NXCDefs.h"
+0	178	680	#line 178 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	179	680	#line 179 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	180	680	#pragma macro 7
+0	180	680		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4892	703	#line 4892 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	179	703	#line 179 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	179	703	#line 179 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	180	703		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	179	706	#line 179 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	706	#line 8551 "NXCDefs.h"
+0	8552	706		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	709	#line 8551 "NXCDefs.h"
+0	181	709	#line 181 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	186	709	#line 186 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	187	709		jmp __ASM_Label_604
+0	187	711	#line 187 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	188	711	#pragma macro 7
+0	188	711		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4906	734	#line 4906 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	187	734	#line 187 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	187	734	#line 187 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	188	734		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 80
+0	187	737	#line 187 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	189	737	#line 189 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	190	737		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	189	739	#line 189 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	191	739	#line 191 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	193	739	#line 193 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	194	739		jmp __ASM_Label_567
+0	193	741	#line 193 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	195	741	#line 195 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	195	741	#line 195 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	196	741		getin __signed_stack_001main, __constVal3, 4
+0	195	745	#line 195 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	196	745	#line 196 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	197	745		mov __D0main, __main_7qG2_luz_7qG2_000
+0	196	747	#line 196 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	197	747		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	198	751	#line 198 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	199	751		brtst 4, __ASM_Label_610, __D0main
+0	199	754	#line 199 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	200	754	#pragma macro 7
+0	200	754		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4937	777	#line 4937 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	199	777	#line 199 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	199	777	#line 199 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	200	777		set __diagonalInferiorDer_7qG2_v_7qG2_000, 80
+0	199	780	#line 199 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	200	780	#line 200 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	201	780		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	200	782	#line 200 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	200	782	#line 200 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	201	782		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	200	785	#line 200 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	785	#line 8551 "NXCDefs.h"
+0	8552	785		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	788	#line 8551 "NXCDefs.h"
+0	201	788	#line 201 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	202	788	#line 202 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	203	788	#pragma macro 7
+0	203	788		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4955	811	#line 4955 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	202	811	#line 202 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	202	811	#line 202 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	203	811		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	202	814	#line 202 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	814	#line 8551 "NXCDefs.h"
+0	8552	814		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	817	#line 8551 "NXCDefs.h"
+0	204	817	#line 204 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	208	817	#line 208 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	209	817		jmp __ASM_Label_617
+0	209	819	#line 209 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	210	819	#pragma macro 7
+0	210	819		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4969	842	#line 4969 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	209	842	#line 209 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	209	842	#line 209 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	210	842		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	209	845	#line 209 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	211	845	#line 211 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	212	845		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	211	847	#line 211 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	213	847	#line 213 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	215	847	#line 215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	216	847		jmp __ASM_Label_567
+0	215	849	#line 215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	217	849	#line 217 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	217	849	#line 217 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	218	849		getin __signed_stack_001main, __constVal3, 4
+0	217	853	#line 217 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	218	853	#line 218 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	219	853		mov __D0main, __main_7qG2_luz_7qG2_000
+0	218	855	#line 218 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	219	855		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	221	859	#line 221 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	222	859		brtst 4, __ASM_Label_623, __D0main
+0	222	862	#line 222 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	223	862	#pragma macro 7
+0	223	862		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5000	885	#line 5000 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	222	885	#line 222 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	222	885	#line 222 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	223	885		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 80
+0	222	888	#line 222 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	223	888	#line 223 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	224	888		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	223	890	#line 223 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	223	890	#line 223 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	224	890		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	223	893	#line 223 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	893	#line 8551 "NXCDefs.h"
+0	8552	893		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	896	#line 8551 "NXCDefs.h"
+0	224	896	#line 224 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	225	896	#line 225 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	226	896	#pragma macro 7
+0	226	896		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5018	919	#line 5018 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	225	919	#line 225 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	225	919	#line 225 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	226	919		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	225	922	#line 225 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	922	#line 8551 "NXCDefs.h"
+0	8552	922		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	925	#line 8551 "NXCDefs.h"
+0	227	925	#line 227 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	232	925	#line 232 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	233	925		jmp __ASM_Label_630
+0	233	927	#line 233 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	234	927	#pragma macro 7
+0	234	927		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5032	950	#line 5032 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	233	950	#line 233 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	233	950	#line 233 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	234	950		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	233	953	#line 233 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	235	953	#line 235 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	236	953		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	235	955	#line 235 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	237	955	#line 237 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	239	955	#line 239 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	240	955		jmp __ASM_Label_567
+0	239	957	#line 239 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	241	957	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	241	957	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	242	957		getin __signed_stack_001main, __constVal3, 4
+0	241	961	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	242	961	#line 242 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	243	961		mov __D0main, __main_7qG2_luz_7qG2_000
+0	242	963	#line 242 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	243	963		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	244	967	#line 244 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	245	967		brtst 4, __ASM_Label_636, __D0main
+0	245	970	#line 245 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	246	970	#pragma macro 7
+0	246	970		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5063	993	#line 5063 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	245	993	#line 245 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	245	993	#line 245 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	246	993		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 80
+0	245	996	#line 245 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	246	996	#line 246 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	247	996		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	246	998	#line 246 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	246	998	#line 246 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	247	998		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	246	1001	#line 246 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1001	#line 8551 "NXCDefs.h"
+0	8552	1001		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1004	#line 8551 "NXCDefs.h"
+0	247	1004	#line 247 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	248	1004	#line 248 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	249	1004	#pragma macro 7
+0	249	1004		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5081	1027	#line 5081 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	248	1027	#line 248 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	248	1027	#line 248 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	249	1027		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	248	1030	#line 248 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1030	#line 8551 "NXCDefs.h"
+0	8552	1030		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1033	#line 8551 "NXCDefs.h"
+0	249	1033	#line 249 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	254	1033	#line 254 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	255	1033		jmp __ASM_Label_643
+0	255	1035	#line 255 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	256	1035	#pragma macro 7
+0	256	1035		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5095	1058	#line 5095 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	255	1058	#line 255 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	255	1058	#line 255 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	256	1058		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	255	1061	#line 255 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	257	1061	#line 257 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	258	1061		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	257	1063	#line 257 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	259	1063	#line 259 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	261	1063	#line 261 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	262	1063		jmp __ASM_Label_567
+0	261	1065	#line 261 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	263	1065	#line 263 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	263	1065	#line 263 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	264	1065		getin __signed_stack_001main, __constVal3, 4
+0	263	1069	#line 263 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	264	1069	#line 264 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	265	1069		mov __D0main, __main_7qG2_luz_7qG2_000
+0	264	1071	#line 264 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	265	1071		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	266	1075	#line 266 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	267	1075		brtst 4, __ASM_Label_649, __D0main
+0	267	1078	#line 267 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	268	1078	#pragma macro 7
+0	268	1078		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5126	1101	#line 5126 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	267	1101	#line 267 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	267	1101	#line 267 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	268	1101		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	267	1104	#line 267 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	268	1104	#line 268 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	269	1104		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	268	1106	#line 268 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	268	1106	#line 268 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	269	1106		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	268	1109	#line 268 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1109	#line 8551 "NXCDefs.h"
+0	8552	1109		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1112	#line 8551 "NXCDefs.h"
+0	269	1112	#line 269 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	270	1112	#line 270 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	271	1112	#pragma macro 7
+0	271	1112		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5144	1135	#line 5144 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	270	1135	#line 270 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	270	1135	#line 270 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	271	1135		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	270	1138	#line 270 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1138	#line 8551 "NXCDefs.h"
+0	8552	1138		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1141	#line 8551 "NXCDefs.h"
+0	272	1141	#line 272 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	277	1141	#line 277 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	278	1141		jmp __ASM_Label_656
+0	278	1143	#line 278 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	279	1143	#pragma macro 7
+0	279	1143		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5158	1166	#line 5158 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	278	1166	#line 278 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	278	1166	#line 278 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	279	1166		set __diagonalInferiorDer_7qG2_v_7qG2_000, 80
+0	278	1169	#line 278 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	280	1169	#line 280 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	281	1169		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	280	1171	#line 280 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	282	1171	#line 282 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	284	1171	#line 284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	285	1171		jmp __ASM_Label_567
+0	284	1173	#line 284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	286	1173	#line 286 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	286	1173	#line 286 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	287	1173		getin __signed_stack_001main, __constVal3, 4
+0	286	1177	#line 286 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	287	1177	#line 287 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	288	1177		mov __D0main, __main_7qG2_luz_7qG2_000
+0	287	1179	#line 287 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	288	1179		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	289	1183	#line 289 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	290	1183		brtst 4, __ASM_Label_662, __D0main
+0	290	1186	#line 290 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	291	1186	#pragma macro 7
+0	291	1186		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5189	1209	#line 5189 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	290	1209	#line 290 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	290	1209	#line 290 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	291	1209		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	290	1212	#line 290 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	291	1212	#line 291 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	292	1212		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	291	1214	#line 291 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	291	1214	#line 291 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	292	1214		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	291	1217	#line 291 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1217	#line 8551 "NXCDefs.h"
+0	8552	1217		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1220	#line 8551 "NXCDefs.h"
+0	292	1220	#line 292 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	293	1220	#line 293 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	294	1220	#pragma macro 7
+0	294	1220		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5207	1243	#line 5207 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	293	1243	#line 293 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	293	1243	#line 293 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	294	1243		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	293	1246	#line 293 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1246	#line 8551 "NXCDefs.h"
+0	8552	1246		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1249	#line 8551 "NXCDefs.h"
+0	295	1249	#line 295 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	300	1249	#line 300 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	301	1249		jmp __ASM_Label_669
+0	301	1251	#line 301 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	302	1251	#pragma macro 7
+0	302	1251		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5221	1274	#line 5221 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	301	1274	#line 301 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	301	1274	#line 301 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	302	1274		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 80
+0	301	1277	#line 301 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	304	1277	#line 304 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	305	1277		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	304	1279	#line 304 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	306	1279	#line 306 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	308	1279	#line 308 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	309	1279		jmp __ASM_Label_567
+0	308	1281	#line 308 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	310	1281	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	310	1281	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	311	1281		getin __signed_stack_001main, __constVal3, 4
+0	310	1285	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	311	1285	#line 311 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	312	1285		mov __D0main, __main_7qG2_luz_7qG2_000
+0	311	1287	#line 311 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	312	1287		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	313	1291	#line 313 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	314	1291		brtst 4, __ASM_Label_675, __D0main
+0	314	1294	#line 314 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	315	1294	#pragma macro 7
+0	315	1294		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5252	1317	#line 5252 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	314	1317	#line 314 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	314	1317	#line 314 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	315	1317		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	314	1320	#line 314 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	315	1320	#line 315 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	316	1320		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	315	1322	#line 315 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	315	1322	#line 315 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	316	1322		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	315	1325	#line 315 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1325	#line 8551 "NXCDefs.h"
+0	8552	1325		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1328	#line 8551 "NXCDefs.h"
+0	316	1328	#line 316 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	317	1328	#line 317 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	318	1328	#pragma macro 7
+0	318	1328		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5270	1351	#line 5270 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	317	1351	#line 317 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	317	1351	#line 317 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	318	1351		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	317	1354	#line 317 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1354	#line 8551 "NXCDefs.h"
+0	8552	1354		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1357	#line 8551 "NXCDefs.h"
+0	319	1357	#line 319 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	324	1357	#line 324 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	325	1357		jmp __ASM_Label_682
+0	325	1359	#line 325 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	326	1359	#pragma macro 7
+0	326	1359		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5284	1382	#line 5284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	325	1382	#line 325 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	325	1382	#line 325 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	326	1382		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 80
+0	325	1385	#line 325 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	327	1385	#line 327 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	328	1385		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	327	1387	#line 327 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	329	1387	#line 329 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	331	1387	#line 331 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	332	1387		jmp __ASM_Label_567
+0	331	1389	#line 331 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	333	1389	#line 333 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	333	1389	#line 333 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	334	1389		getin __signed_stack_001main, __constVal3, 4
+0	333	1393	#line 333 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	334	1393	#line 334 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	335	1393		mov __D0main, __main_7qG2_luz_7qG2_000
+0	334	1395	#line 334 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	335	1395		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	335	1399	#line 335 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	336	1399		brtst 4, __ASM_Label_688, __D0main
+0	336	1402	#line 336 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	337	1402	#pragma macro 7
+0	337	1402		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5315	1425	#line 5315 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	336	1425	#line 336 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	336	1425	#line 336 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	337	1425		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	336	1428	#line 336 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	337	1428	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	338	1428		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	337	1430	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	337	1430	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	338	1430		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	337	1433	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1433	#line 8551 "NXCDefs.h"
+0	8552	1433		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1436	#line 8551 "NXCDefs.h"
+0	338	1436	#line 338 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	339	1436	#line 339 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	340	1436	#pragma macro 7
+0	340	1436		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5333	1459	#line 5333 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	339	1459	#line 339 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	339	1459	#line 339 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	340	1459		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	339	1462	#line 339 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	8551	1462	#line 8551 "NXCDefs.h"
+0	8552	1462		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1465	#line 8551 "NXCDefs.h"
+0	341	1465	#line 341 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	346	1465	#line 346 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	347	1465		jmp __ASM_Label_695
+0	347	1467	#line 347 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	348	1467	#pragma macro 7
+0	348	1467		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5347	1490	#line 5347 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	347	1490	#line 347 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	347	1490	#line 347 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	348	1490		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 85
+0	347	1493	#line 347 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	349	1493	#line 349 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	350	1493		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	349	1495	#line 349 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	351	1495	#line 351 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	352	1495	#line 352 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	352	1495	#line 352 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	354	1495	#line 354 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	355	1495	#line 355 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	357	1495	#line 357 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	358	1495		jmp __ASM_Label_698
+0	358	1497	#line 358 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	359	1497	#pragma macro 7
+0	359	1497		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5369	1520	#line 5369 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	358	1520	#line 358 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	360	1520	#line 360 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	362	1520	#line 362 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	363	1520		jmp __ASM_Label_538
+0	362	1522	#line 362 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+0	363	1522		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6281	0	#pragma macro 25
+2	6281	0		acquire __CLSWMutex0
+2	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+2	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	6281	9		syscall 21, __CLSWArgs0
+2	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+2	6281	14		release __CLSWMutex0
+2	6282	15	#line 6282 "NXTDefs.h"
+2	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+2	6284	18		set __RLSBIterations0, 60
+2	6286	21	#pragma macro 23
+2	6286	21		acquire __CLSCSMutex0
+2	6286	22		set __CLSCSArgs0.Port, 0
+2	6286	25		syscall 23, __CLSCSArgs0
+2	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+2	6286	32		release __CLSCSMutex0
+2	6286	33	#line 6286 "NXTDefs.h"
+2	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+2	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+2	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	6292	46		wait2 NA, __constVal1
+2	6293	49		jmp __RLSBDoCheckStatus0
+2	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	6298	58	#pragma macro 25
+2	6298	58		acquire __CLSRMutex0
+2	6298	59		set __CLSRArgs0.Port, 0
+2	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	6298	64		syscall 22, __CLSRArgs0
+2	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+2	6298	71		release __CLSRMutex0
+2	6298	72	#line 6298 "NXTDefs.h"
+2	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+2	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	6301	77		jmp __RLSBDone0
+2	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	6307	84		subret ____ReadLSBytes0_return
+3	6356	0	#pragma macro 25
+3	6356	0		acquire __CLSWMutex2
+3	6356	1		or __CLSWArgs2.Port, __constVal2, __LSWriteOptions2
+3	6356	5		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+3	6356	7		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+3	6356	9		syscall 21, __CLSWArgs2
+3	6356	12		mov __RLSBResult2, __CLSWArgs2.Result
+3	6356	14		release __CLSWMutex2
+3	6356	15	#line 6356 "NXTDefs.h"
+3	6357	15		brtst 5, __RLSBError2, __RLSBResult2
+3	6358	18		set __RLSBIterations2, 60
+3	6360	21	#pragma macro 23
+3	6360	21		acquire __CLSCSMutex2
+3	6360	22		set __CLSCSArgs2.Port, 2
+3	6360	25		syscall 23, __CLSCSArgs2
+3	6360	28		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+3	6360	30		mov __RLSBResult2, __CLSCSArgs2.Result
+3	6360	32		release __CLSCSMutex2
+3	6360	33	#line 6360 "NXTDefs.h"
+3	6361	33		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+3	6362	37		brtst 2, __RLSBError2, __RLSBIterations2
+3	6363	40		brtst 0, __RLSBError2, __RLSBResult2
+3	6364	43		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+3	6366	46		wait2 NA, __constVal1
+3	6367	49		jmp __RLSBDoCheckStatus2
+3	6369	51		brtst 4, __RLSBReturn2, __RLSBytesCount2
+3	6370	54		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+3	6372	58	#pragma macro 25
+3	6372	58		acquire __CLSRMutex2
+3	6372	59		set __CLSRArgs2.Port, 2
+3	6372	62		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+3	6372	64		syscall 22, __CLSRArgs2
+3	6372	67		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+3	6372	69		mov __RLSBResult2, __CLSRArgs2.Result
+3	6372	71		release __CLSRMutex2
+3	6372	72	#line 6372 "NXTDefs.h"
+3	6373	72		brtst 5, __RLSBError2, __RLSBResult2
+3	6374	75		mov __RLSLastGoodRead2, __RLSReadBuf2
+3	6375	77		jmp __RLSBDone2
+3	6377	79		mov __RLSReadBuf2, __RLSLastGoodRead2
+3	6379	81		arrsize __RLSBytesCount2, __RLSReadBuf2
+3	6381	84		subret ____ReadLSBytes2_return
+4	21	0	#line 21 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	22	0	#pragma macro 7
+4	22	0		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4033	23	#line 4033 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	21	23	#line 21 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	21	23	#line 21 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	22	23		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
+4	22	25	#line 22 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	23	25	#pragma macro 7
+4	23	25		setout __constVal0, 2, __D0diagonalSuperiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4040	48	#line 4040 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	22	48	#line 22 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	22	48	#line 22 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	23	48		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
+4	23	50	#line 23 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	24	50	#pragma macro 10
+4	24	50		acquire __OnRevMutex
+4	24	51		neg __OnRev_Tmp, __D0diagonalSuperiorIzq
+4	24	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	24	77		release __OnRevMutex
+4	4047	78	#line 4047 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	23	78	#line 23 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	25	78	#line 25 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+4	26	78		subret __diagonalSuperiorIzq_return
+5	28	0	#line 28 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	29	0	#pragma macro 7
+5	29	0		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4059	23	#line 4059 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	28	23	#line 28 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	28	23	#line 28 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	29	23		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
+5	29	25	#line 29 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	30	25	#pragma macro 7
+5	30	25		setout __constVal2, 2, __D0diagonalSuperiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4066	48	#line 4066 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	29	48	#line 29 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	29	48	#line 29 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	30	48		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
+5	30	50	#line 30 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	31	50	#pragma macro 10
+5	31	50		acquire __OnRevMutex
+5	31	51		neg __OnRev_Tmp, __D0diagonalSuperiorDer
+5	31	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	31	77		release __OnRevMutex
+5	4073	78	#line 4073 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	30	78	#line 30 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	32	78	#line 32 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+5	33	78		subret __diagonalSuperiorDer_return
+6	42	0	#line 42 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	43	0	#pragma macro 7
+6	43	0		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4111	23	#line 4111 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	42	23	#line 42 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	42	23	#line 42 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	43	23		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
+6	43	25	#line 43 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	44	25	#pragma macro 7
+6	44	25		setout __constVal1, 2, __D0diagonalInferiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4118	48	#line 4118 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	43	48	#line 43 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	43	48	#line 43 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	44	48		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
+6	44	50	#line 44 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	45	50	#pragma macro 10
+6	45	50		acquire __OnRevMutex
+6	45	51		neg __OnRev_Tmp, __D0diagonalInferiorIzq
+6	45	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	45	77		release __OnRevMutex
+6	4125	78	#line 4125 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	44	78	#line 44 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	46	78	#line 46 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+6	47	78		subret __diagonalInferiorIzq_return
+7	49	0	#line 49 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	50	0	#pragma macro 7
+7	50	0		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4137	23	#line 4137 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	49	23	#line 49 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	49	23	#line 49 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	50	23		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
+7	50	25	#line 50 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	51	25	#pragma macro 7
+7	51	25		setout __constVal2, 2, __D0diagonalInferiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4144	48	#line 4144 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	50	48	#line 50 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	50	48	#line 50 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	51	48		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
+7	51	50	#line 51 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	52	50	#pragma macro 10
+7	52	50		acquire __OnRevMutex
+7	52	51		neg __OnRev_Tmp, __D0diagonalInferiorDer
+7	52	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	52	77		release __OnRevMutex
+7	4151	78	#line 4151 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	51	78	#line 51 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	53	78	#line 53 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+7	54	78		subret __diagonalInferiorDer_return
+8	63	0	#line 63 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	64	0	#pragma macro 7
+8	64	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4189	23	#line 4189 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	63	23	#line 63 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	63	23	#line 63 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	64	23		mov __D0alinearIzq, __alinearIzq_7qG2_v_7qG2_000
+8	64	25	#line 64 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	65	25	#pragma macro 7
+8	65	25		setout __OUT_ABC, 2, __D0alinearIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4196	48	#line 4196 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	64	48	#line 64 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	66	48	#line 66 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+8	67	48		subret __alinearIzq_return
+9	69	0	#line 69 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	70	0	#pragma macro 7
+9	70	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4208	23	#line 4208 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	69	23	#line 69 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	69	23	#line 69 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	70	23		mov __D0alinearDer, __alinearDer_7qG2_v_7qG2_000
+9	70	25	#line 70 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	71	25	#pragma macro 10
+9	71	25		acquire __OnRevMutex
+9	71	26		neg __OnRev_Tmp, __D0alinearDer
+9	71	29		setout __OUT_ABC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	71	52		release __OnRevMutex
+9	4215	53	#line 4215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	70	53	#line 70 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	73	53	#line 73 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+9	74	53		subret __alinearDer_return
+10	363	0	#line 363 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc"
+10	364	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-1	__ResetSensorSubroutine	795	NXTDefs.h
-2	__ReadLSBytes0	808	NXTDefs.h
-3	__ReadLSBytes2	893	NXTDefs.h
-4	diagonalSuperiorIzq	978	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-5	diagonalSuperiorDer	1058	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-6	adelante	1138	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-7	diagonalInferiorIzq	1218	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-8	diagonalInferiorDer	1298	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-9	atras	1378	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-10	alinearIzq	1458	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-11	alinearDer	1508	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
-12	__initialize_global_data	1563	C:\Users\UnMalNombre\Documents\GitHub\Soccer-Java\Yolo python\Delantero\Ataque central.nxc
+0	main	0	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+1	__ResetSensorSubroutine	1525	NXTDefs.h
+2	__ReadLSBytes0	1538	NXTDefs.h
+3	__ReadLSBytes2	1624	NXTDefs.h
+4	diagonalSuperiorIzq	1710	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+5	diagonalSuperiorDer	1790	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+6	diagonalInferiorIzq	1870	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+7	diagonalInferiorDer	1950	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+8	alinearIzq	2030	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+9	alinearDer	2080	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc
+10	__initialize_global_data	2135	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Ataque central.nxc

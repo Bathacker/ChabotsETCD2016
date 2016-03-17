@@ -1,0 +1,1194 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0alinearIzq	6	1	0	4	2
+1	__D0alinearDer	6	1	4	4	2
+2	__D0atras	6	1	8	4	4
+3	__D0diagonalInferiorIzq	6	1	12	4	4
+4	__D0diagonalInferiorDer	6	1	16	4	4
+5	__CLSRMutex2	9	0	20	4	2
+6	__CLSWMutex2	9	0	24	4	2
+7	__RLSBmutex0	9	0	28	4	2
+8	__D0adelante	6	1	32	4	4
+9	__RLSBmutex2	9	0	36	4	4
+10	__D0diagonalSuperiorDer	6	1	40	4	4
+11	__D0brujula_inline_main	6	1	44	4	8
+12	__DU0SetSensorLowspeed_inline_main	5	1	48	4	10
+13	__signed_stack_001main	6	1	52	4	28
+14	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	56	4	18
+15	__signed_stack_001brujula_inline_main	6	1	60	4	4
+16	__D0main	6	1	64	4	86
+17	__D0diagonalSuperiorIzq	6	1	68	4	4
+18	__D0SetSensorLight_inline_main	6	1	72	4	2
+19	__D0SetSensorLowspeed_inline_main	6	1	76	4	4
+20	__DU0SetSensorLight_inline_main	5	1	80	4	5
+21	__CLSRMutex0	9	0	84	4	2
+22	__CLSCSMutex0	9	0	88	4	2
+23	__CLSWMutex0	9	0	92	4	2
+24	__OnRevMutex	9	0	96	4	14
+25	__CLSCSMutex2	9	0	100	4	2
+26	__main_7qG2_ir_7qG2_000	4	1	104	2	2
+27	__main_7qG2_luz_7qG2_000	4	1	106	2	11
+28	__alinearDer_7qG2_v_7qG2_000	4	1	108	2	2
+29	__main_7qG2_ba_7qG2_000	4	1	110	2	4
+30	__main_7qG2_cactual_7qG2_000	4	1	112	2	2
+31	__main_7qG2_cinicio_7qG2_000	4	1	114	2	2
+32	__diagonalSuperiorIzq_7qG2_v_7qG2_000	4	1	116	2	5
+33	__atras_7qG2_v_7qG2_000	4	1	118	2	5
+34	__diagonalInferiorDer_7qG2_v_7qG2_000	4	1	120	2	7
+35	__diagonalInferiorIzq_7qG2_v_7qG2_000	4	1	122	2	5
+36	__diagonalSuperiorDer_7qG2_v_7qG2_000	4	1	124	2	4
+37	__alinearIzq_7qG2_v_7qG2_000	4	1	126	2	2
+38	__adelante_7qG2_v_7qG2_000	4	1	128	2	6
+39	__brujula_7qG2_compas_7qG2_000_inline_main	4	1	130	2	2
+40	__brujula_7qG2_b_7qG2_000_inline_main	4	1	132	2	5
+41	__diagonalInferiorIzq_return	1	1	134	1	5
+42	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	135	1	2
+43	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	136	1	2
+44	__diagonalInferiorDer_return	1	1	137	1	7
+45	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	138	1	2
+46	__adelante_return	1	1	139	1	6
+47	__constVal63	2	0	140	1	43
+48	__constVal96	2	0	141	1	43
+49	__constVal73	2	0	142	1	1
+50	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	143	1	4
+51	__diagonalSuperiorDer_return	1	1	144	1	4
+52	__atras_return	1	1	145	1	5
+53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	146	1	4
+54	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	147	1	4
+55	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	148	1	4
+56	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	149	1	10
+57	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	150	1	4
+58	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	151	1	4
+59	____initialize_global_data_return	1	1	152	1	3
+60	__alinearIzq_return	1	1	153	1	3
+61	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	154	1	2
+62	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	155	1	2
+63	__alinearDer_return	1	1	156	1	3
+64	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	157	1	2
+65	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	158	1	4
+66	__constVal2	2	0	159	1	8
+67	__RLSBIterations2	1	1	160	1	4
+68	__RLSBytesCount2	1	1	161	1	12
+69	__PFTmp	1	1	162	1	1
+70	__constVal16	2	0	163	1	1
+71	__constVal7	2	0	164	1	1
+72	__constVal8	2	0	165	1	1
+73	__RLSBResult2	2	1	166	1	7
+74	____ReadLSBytes0_return	1	1	167	1	3
+75	__LSWriteOptions2	1	1	168	1	1
+76	__LSWriteOptions0	1	1	169	1	1
+77	__RLSBResult0	2	1	170	1	8
+78	____ReadLSBytes2_return	1	1	171	1	4
+79	__RLSBIterations0	1	1	172	1	4
+80	__RLSBytesCount0	1	1	173	1	7
+81	__constVal1	2	0	174	1	19
+82	__constVal4	2	0	175	1	1
+83	__constVal5	2	0	176	1	1
+84	__constVal3	2	0	177	1	54
+85	__constVal0	2	1	178	1	168
+86	__constVal6	2	0	179	1	1
+87	__ResetSensorPort	1	1	180	1	6
+88	__diagonalSuperiorIzq_return	1	1	181	1	5
+89	__OnRev_Tmp	2	1	182	1	14
+90	__constVal9	2	0	183	1	1
+91	____ResetSensorSubroutine_return	1	1	184	1	6
+92	__constVal32	2	0	185	1	130
+93	__ResetSensorTmp	1	1	186	1	2
+94	__CLSCSArgs2	8	0	3	4	4
+95	__CLSCSArgs2.Result	2	1	188	1	4
+96	__CLSCSArgs2.Port	1	1	189	1	4
+97	__CLSCSArgs2.BytesReady	1	1	190	1	4
+98	__CLSCSArgs0	8	0	3	4	4
+99	__CLSCSArgs0.Result	2	1	192	1	4
+100	__CLSCSArgs0.Port	1	1	193	1	4
+101	__CLSCSArgs0.BytesReady	1	1	194	1	4
+102	__CLSWArgs0	8	0	4	12	5
+103	__CLSWArgs0.Result	2	1	196	1	5
+104	__CLSWArgs0.Port	1	1	197	1	5
+105	__CLSWArgs0.Buffer	7	0	198	4	5
+106	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+107	__CLSWArgs0.ReturnLen	1	1	200	1	5
+108	__CLSWArgs2	8	0	4	12	5
+109	__CLSWArgs2.Result	2	1	204	1	5
+110	__CLSWArgs2.Port	1	1	205	1	5
+111	__CLSWArgs2.Buffer	7	0	206	4	5
+112	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+113	__CLSWArgs2.ReturnLen	1	1	208	1	5
+114	__CLSRArgs2	8	0	4	12	5
+115	__CLSRArgs2.Result	2	1	212	1	5
+116	__CLSRArgs2.Port	1	1	213	1	5
+117	__CLSRArgs2.Buffer	7	0	214	4	5
+118	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+119	__CLSRArgs2.BufferLen	1	1	216	1	5
+120	__CLSRArgs0	8	0	4	12	5
+121	__CLSRArgs0.Result	2	1	220	1	5
+122	__CLSRArgs0.Port	1	1	221	1	5
+123	__CLSRArgs0.Buffer	7	0	222	4	5
+124	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+125	__CLSRArgs0.BufferLen	1	1	224	1	5
+126	__OUT_ABC	7	0	226	4	25
+127	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+128	__RLSLastGoodRead2	7	0	228	4	2
+129	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+130	__RLSReadBuf2	7	0	230	4	12
+131	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+132	__RLSReadBuf0	7	0	232	4	8
+133	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+134	__RLSBbufLSWrite1	7	0	234	4	2
+135	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+136	__RLSLastGoodRead0	7	0	236	4	2
+137	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	76	0	#line 76 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	77	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	76	2	#line 76 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	78	2	#line 78 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	79	2		set __main_7qG2_luz_7qG2_000, 40
+0	78	5	#line 78 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	82	5	#line 82 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	83	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	82	8	#line 82 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	83	8	#line 83 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	84	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	10	#line 4342 "NXCDefs.h"
+0	4343	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	12	#line 4342 "NXCDefs.h"
+0	4342	12	#line 4342 "NXCDefs.h"
+0	4343	12		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4343	23		jmp __004__ASM_Label_37
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	28	#line 4342 "NXCDefs.h"
+0	4342	28	#line 4342 "NXCDefs.h"
+0	4343	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	30	#line 4247 "NXCDefs.h"
+0	4248	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	34	#line 4247 "NXCDefs.h"
+0	4343	34	#line 4343 "NXCDefs.h"
+0	4343	34	#line 4343 "NXCDefs.h"
+0	4344	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4344	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	39	#line 4343 "NXCDefs.h"
+0	4260	39	#line 4260 "NXCDefs.h"
+0	4261	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	43	#line 4260 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4345	43		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	45	#line 4344 "NXCDefs.h"
+0	4278	45	#line 4278 "NXCDefs.h"
+0	4279	45	#pragma macro 4
+0	4279	45		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	47		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4357	49	#line 4357 "NXCDefs.h"
+0	4278	49	#line 4278 "NXCDefs.h"
+0	4345	49	#line 4345 "NXCDefs.h"
+0	83	49	#line 83 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	83	49	#line 83 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	84	49		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
+0	83	52	#line 83 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	84	52	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	85	52		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	54	#line 4342 "NXCDefs.h"
+0	4343	54		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	56	#line 4342 "NXCDefs.h"
+0	4342	56	#line 4342 "NXCDefs.h"
+0	4343	56		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	58	#line 4342 "NXCDefs.h"
+0	4343	58		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	61	#line 4342 "NXCDefs.h"
+0	4343	61		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4343	64		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	67	#line 4342 "NXCDefs.h"
+0	4342	67	#line 4342 "NXCDefs.h"
+0	4343	67		jmp __005__ASM_Label_37
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4343	69		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	72	#line 4342 "NXCDefs.h"
+0	4342	72	#line 4342 "NXCDefs.h"
+0	4343	72		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	74	#line 4247 "NXCDefs.h"
+0	4248	74		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	78	#line 4247 "NXCDefs.h"
+0	4343	78	#line 4343 "NXCDefs.h"
+0	4343	78	#line 4343 "NXCDefs.h"
+0	4344	78		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4344	80		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	83	#line 4343 "NXCDefs.h"
+0	4260	83	#line 4260 "NXCDefs.h"
+0	4261	83		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	87	#line 4260 "NXCDefs.h"
+0	4344	87	#line 4344 "NXCDefs.h"
+0	4344	87	#line 4344 "NXCDefs.h"
+0	4345	87		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	89	#line 4344 "NXCDefs.h"
+0	4278	89	#line 4278 "NXCDefs.h"
+0	4279	89	#pragma macro 4
+0	4279	89		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	91		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4420	93	#line 4420 "NXCDefs.h"
+0	4278	93	#line 4278 "NXCDefs.h"
+0	4345	93	#line 4345 "NXCDefs.h"
+0	84	93	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	84	93	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	85	93		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 3
+0	84	96	#line 84 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	85	96	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	86	96		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	98	#line 4313 "NXCDefs.h"
+0	4314	98		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	100	#line 4313 "NXCDefs.h"
+0	4313	100	#line 4313 "NXCDefs.h"
+0	4314	100		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	102	#line 4313 "NXCDefs.h"
+0	4314	102		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	105	#line 4313 "NXCDefs.h"
+0	4314	105		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	108	#line 4313 "NXCDefs.h"
+0	4314	108		set __DU0SetSensorLight_inline_main, 5
+0	4313	111	#line 4313 "NXCDefs.h"
+0	4313	111	#line 4313 "NXCDefs.h"
+0	4314	111		jmp __001__ASM_Label_5
+0	4313	113	#line 4313 "NXCDefs.h"
+0	4314	113		set __DU0SetSensorLight_inline_main, 6
+0	4313	116	#line 4313 "NXCDefs.h"
+0	4313	116	#line 4313 "NXCDefs.h"
+0	4314	116		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	118	#line 4247 "NXCDefs.h"
+0	4248	118		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	122	#line 4247 "NXCDefs.h"
+0	4314	122	#line 4314 "NXCDefs.h"
+0	4314	122	#line 4314 "NXCDefs.h"
+0	4315	122		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	124	#line 4314 "NXCDefs.h"
+0	4314	124	#line 4314 "NXCDefs.h"
+0	4315	124		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	127	#line 4314 "NXCDefs.h"
+0	4260	127	#line 4260 "NXCDefs.h"
+0	4261	127		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	131	#line 4260 "NXCDefs.h"
+0	4315	131	#line 4315 "NXCDefs.h"
+0	4315	131	#line 4315 "NXCDefs.h"
+0	4315	131	#line 4315 "NXCDefs.h"
+0	4278	131	#line 4278 "NXCDefs.h"
+0	4279	131	#pragma macro 4
+0	4279	131		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	133		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4511	135	#line 4511 "NXCDefs.h"
+0	4278	135	#line 4278 "NXCDefs.h"
+0	4316	135	#line 4316 "NXCDefs.h"
+0	85	135	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	85	135	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	86	135		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	85	138	#line 85 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	4302	138	#line 4302 "NXCDefs.h"
+0	4303	138	#pragma macro 6
+0	4303	138		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	4303	142		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4303	146		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	4303	148		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4524	150	#line 4524 "NXCDefs.h"
+0	4302	150	#line 4302 "NXCDefs.h"
+0	87	150	#line 87 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	87	150	#line 87 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	88	150	#pragma macro 30
+0	88	150		acquire __RLSBmutex2
+0	88	151		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	88	153		set __RLSBytesCount2, 2
+0	88	156		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	88	158		index __D0main, __RLSReadBuf2, 65535
+0	88	162		index __RLSBytesCount2, __RLSReadBuf2, __constVal1
+0	88	166		add __D0main, __D0main, __D0main
+0	88	170		add __D0main, __D0main, __RLSBytesCount2
+0	88	174		release __RLSBmutex2
+0	4528	175	#line 4528 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	87	175	#line 87 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	88	175		mov __main_7qG2_cinicio_7qG2_000, __D0main
+0	87	177	#line 87 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	87	177	#line 87 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	91	177	#line 91 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	92	177		set __D0main, 1
+0	93	180	#line 93 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	94	180		tst 5, __D0main, __D0main
+0	93	183	#line 93 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	94	183		brtst 4, __ASM_Label_539, __D0main
+0	93	186	#line 93 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	94	186	#pragma macro 36
+0	94	186		acquire __RLSBmutex0
+0	94	187		arrbuild __RLSReadBuf0, __constVal16, __constVal73
+0	94	192		set __RLSBytesCount0, 6
+0	94	195		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	94	197		tst 4, __D0main, __RLSBResult0
+0	94	200		index __main_7qG2_ir_7qG2_000, __RLSReadBuf0, 65535
+0	94	204		release __RLSBmutex0
+0	4543	205	#line 4543 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	93	205	#line 93 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	93	205	#line 93 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	94	205	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	95	205	#pragma macro 30
+0	95	205		acquire __RLSBmutex2
+0	95	206		mov __RLSReadBuf2, __RLSBbufLSWrite1
+0	95	208		set __RLSBytesCount2, 2
+0	95	211		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+0	95	213		index __D0main, __RLSReadBuf2, 65535
+0	95	217		index __RLSBytesCount2, __RLSReadBuf2, __constVal1
+0	95	221		add __D0main, __D0main, __D0main
+0	95	225		add __D0main, __D0main, __RLSBytesCount2
+0	95	229		release __RLSBmutex2
+0	4547	230	#line 4547 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	94	230	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	95	230		mov __main_7qG2_cactual_7qG2_000, __D0main
+0	94	232	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	94	232	#line 94 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	95	232	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	96	232		mov __brujula_7qG2_compas_7qG2_000_inline_main, __main_7qG2_cinicio_7qG2_000
+0	95	234	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	95	234	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	95	234	#line 95 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	7	234	#line 7 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8	234		mov __signed_stack_001brujula_inline_main, __main_7qG2_cactual_7qG2_000
+0	7	236	#line 7 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8	236	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	9	236		mov __D0brujula_inline_main, __brujula_7qG2_compas_7qG2_000_inline_main
+0	8	238	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	9	238		sub __brujula_7qG2_b_7qG2_000_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
+0	8	242	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8	242	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8	242	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	9	242		mov __signed_stack_001brujula_inline_main, __brujula_7qG2_b_7qG2_000_inline_main
+0	8	244	#line 8 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	9	244	#line 9 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	10	244		set __D0brujula_inline_main, 0
+0	9	247	#line 9 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	10	247		cmp 0, __D0brujula_inline_main, __signed_stack_001brujula_inline_main, __D0brujula_inline_main
+0	11	251	#line 11 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	12	251		brtst 4, __001__ASM_Label_493, __D0brujula_inline_main
+0	13	254	#line 13 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	14	254		set __D0brujula_inline_main, 360
+0	13	257	#line 13 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	14	257		add __brujula_7qG2_b_7qG2_000_inline_main, __brujula_7qG2_b_7qG2_000_inline_main, __D0brujula_inline_main
+0	13	261	#line 13 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	15	261	#line 15 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	16	261	#line 16 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	17	261		mov __main_7qG2_ba_7qG2_000, __brujula_7qG2_b_7qG2_000_inline_main
+0	16	263	#line 16 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	16	263	#line 16 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	96	263	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	96	263	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	96	263	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	96	263	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	97	263		getin __signed_stack_001main, __constVal1, 4
+0	96	267	#line 96 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	97	267	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	98	267		set __D0main, 0
+0	97	270	#line 97 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	98	270		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	98	274	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	274		brtst 4, __ASM_Label_552, __D0main
+0	98	277	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	277		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	98	279	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	98	279	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	279		set __D0main, 20
+0	98	282	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	282		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	98	286	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	286		brtst 4, __ASM_Label_554, __D0main
+0	98	289	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	289		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	98	291	#line 98 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	99	291	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	100	291		set __D0main, 340
+0	99	294	#line 99 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	100	294		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	100	298	#line 100 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	101	298		brtst 4, __ASM_Label_555, __D0main
+0	100	301	#line 100 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	101	301		mov __signed_stack_001main, __main_7qG2_ba_7qG2_000
+0	100	303	#line 100 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	101	303	#line 101 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	102	303		set __D0main, 115
+0	101	306	#line 101 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	102	306		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	103	310	#line 103 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	104	310		brtst 4, __ASM_Label_558, __D0main
+0	103	313	#line 103 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	104	313		set __alinearIzq_7qG2_v_7qG2_000, 70
+0	103	316	#line 103 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	105	316	#line 105 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	106	316		subcall alinearIzq, __alinearIzq_return
+0	105	318	#line 105 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	110	318	#line 110 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	111	318		jmp __ASM_Label_561
+0	110	320	#line 110 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	111	320		set __alinearDer_7qG2_v_7qG2_000, 70
+0	110	323	#line 110 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	112	323	#line 112 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	113	323		subcall alinearDer, __alinearDer_return
+0	112	325	#line 112 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	115	325	#line 115 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	118	325	#line 118 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	119	325		jmp __ASM_Label_564
+0	119	327	#line 119 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	120	327		mov __D0main, __main_7qG2_ir_7qG2_000
+0	123	329		brcmp 4, __ASM_Label_568, __constVal1, __D0main
+0	124	333		brcmp 4, __ASM_Label_579, __constVal2, __D0main
+0	125	337		brcmp 4, __ASM_Label_590, __constVal3, __D0main
+0	126	341		brcmp 4, __ASM_Label_601, __constVal4, __D0main
+0	127	345		brcmp 4, __ASM_Label_612, __constVal5, __D0main
+0	128	349		brcmp 4, __ASM_Label_621, __constVal6, __D0main
+0	129	353		brcmp 4, __ASM_Label_630, __constVal7, __D0main
+0	130	357		brcmp 4, __ASM_Label_641, __constVal8, __D0main
+0	131	361		brcmp 4, __ASM_Label_652, __constVal9, __D0main
+0	132	365		brcmp 4, __ASM_Label_665, __constVal0, __D0main
+0	133	369		jmp __ASM_Label_567
+0	124	371	#line 124 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	124	371	#line 124 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	125	371		getin __signed_stack_001main, __constVal3, 4
+0	124	375	#line 124 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	125	375	#line 125 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	126	375		mov __D0main, __main_7qG2_luz_7qG2_000
+0	125	377	#line 125 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	126	377		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	127	381	#line 127 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	128	381		brtst 4, __ASM_Label_571, __D0main
+0	128	384	#line 128 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	129	384	#pragma macro 7
+0	129	384		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4738	407	#line 4738 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	128	407	#line 128 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	128	407	#line 128 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	129	407		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	128	410	#line 128 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	129	410	#line 129 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	130	410		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	129	412	#line 129 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	129	412	#line 129 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	130	412		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	129	415	#line 129 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	415	#line 8551 "NXCDefs.h"
+0	8552	415		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	418	#line 8551 "NXCDefs.h"
+0	133	418	#line 133 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	138	418	#line 138 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	139	418		jmp __ASM_Label_576
+0	139	420	#line 139 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	140	420	#pragma macro 7
+0	140	420		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4763	443	#line 4763 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	139	443	#line 139 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	139	443	#line 139 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	140	443		set __atras_7qG2_v_7qG2_000, 90
+0	139	446	#line 139 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	141	446	#line 141 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	142	446		subcall atras, __atras_return
+0	141	448	#line 141 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	143	448	#line 143 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	145	448	#line 145 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	146	448		jmp __ASM_Label_567
+0	145	450	#line 145 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	147	450	#line 147 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	147	450	#line 147 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	148	450		getin __signed_stack_001main, __constVal3, 4
+0	147	454	#line 147 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	148	454	#line 148 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	149	454		mov __D0main, __main_7qG2_luz_7qG2_000
+0	148	456	#line 148 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	149	456		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	150	460	#line 150 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	151	460		brtst 4, __ASM_Label_582, __D0main
+0	151	463	#line 151 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	152	463	#pragma macro 7
+0	152	463		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4794	486	#line 4794 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	151	486	#line 151 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	151	486	#line 151 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	152	486		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 80
+0	151	489	#line 151 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	152	489	#line 152 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	153	489		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	152	491	#line 152 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	152	491	#line 152 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	153	491		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	152	494	#line 152 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	494	#line 8551 "NXCDefs.h"
+0	8552	494		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	497	#line 8551 "NXCDefs.h"
+0	156	497	#line 156 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	161	497	#line 161 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	162	497		jmp __ASM_Label_587
+0	162	499	#line 162 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	163	499	#pragma macro 7
+0	163	499		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4815	522	#line 4815 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	162	522	#line 162 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	162	522	#line 162 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	163	522		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 85
+0	162	525	#line 162 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	164	525	#line 164 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	165	525		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	164	527	#line 164 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	166	527	#line 166 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	168	527	#line 168 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	169	527		jmp __ASM_Label_567
+0	168	529	#line 168 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	170	529	#line 170 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	170	529	#line 170 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	171	529		getin __signed_stack_001main, __constVal3, 4
+0	170	533	#line 170 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	171	533	#line 171 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	172	533		mov __D0main, __main_7qG2_luz_7qG2_000
+0	171	535	#line 171 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	172	535		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	173	539	#line 173 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	174	539		brtst 4, __ASM_Label_593, __D0main
+0	174	542	#line 174 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	175	542	#pragma macro 7
+0	175	542		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4846	565	#line 4846 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	174	565	#line 174 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	174	565	#line 174 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	175	565		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	174	568	#line 174 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	175	568	#line 175 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	176	568		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	175	570	#line 175 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	175	570	#line 175 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	176	570		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	175	573	#line 175 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	573	#line 8551 "NXCDefs.h"
+0	8552	573		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	576	#line 8551 "NXCDefs.h"
+0	179	576	#line 179 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	184	576	#line 184 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	185	576		jmp __ASM_Label_598
+0	185	578	#line 185 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	186	578	#pragma macro 7
+0	186	578		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4867	601	#line 4867 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	185	601	#line 185 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	185	601	#line 185 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	186	601		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 85
+0	185	604	#line 185 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	187	604	#line 187 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	188	604		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	187	606	#line 187 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	189	606	#line 189 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	191	606	#line 191 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	192	606		jmp __ASM_Label_567
+0	191	608	#line 191 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	193	608	#line 193 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	193	608	#line 193 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	194	608		getin __signed_stack_001main, __constVal3, 4
+0	193	612	#line 193 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	194	612	#line 194 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	195	612		mov __D0main, __main_7qG2_luz_7qG2_000
+0	194	614	#line 194 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	195	614		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	196	618	#line 196 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	197	618		brtst 4, __ASM_Label_604, __D0main
+0	197	621	#line 197 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	198	621	#pragma macro 7
+0	198	621		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4898	644	#line 4898 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	197	644	#line 197 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	197	644	#line 197 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	198	644		set __diagonalInferiorDer_7qG2_v_7qG2_000, 90
+0	197	647	#line 197 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	198	647	#line 198 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	199	647		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	198	649	#line 198 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	198	649	#line 198 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	199	649		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	198	652	#line 198 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	652	#line 8551 "NXCDefs.h"
+0	8552	652		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	655	#line 8551 "NXCDefs.h"
+0	202	655	#line 202 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	206	655	#line 206 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	207	655		jmp __ASM_Label_609
+0	207	657	#line 207 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	208	657	#pragma macro 7
+0	208	657		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4919	680	#line 4919 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	207	680	#line 207 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	207	680	#line 207 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	208	680		set __adelante_7qG2_v_7qG2_000, 100
+0	207	683	#line 207 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	209	683	#line 209 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	210	683		subcall adelante, __adelante_return
+0	209	685	#line 209 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	211	685	#line 211 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	213	685	#line 213 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	214	685		jmp __ASM_Label_567
+0	213	687	#line 213 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	215	687	#line 215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	215	687	#line 215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	216	687		getin __signed_stack_001main, __constVal3, 4
+0	215	691	#line 215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	216	691	#line 216 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	217	691		mov __D0main, __main_7qG2_luz_7qG2_000
+0	216	693	#line 216 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	217	693		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	219	697	#line 219 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	220	697		brtst 4, __ASM_Label_615, __D0main
+0	220	700	#line 220 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	221	700	#pragma macro 7
+0	221	700		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4950	723	#line 4950 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	220	723	#line 220 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	220	723	#line 220 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	221	723		set __atras_7qG2_v_7qG2_000, 100
+0	220	726	#line 220 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	222	726	#line 222 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	223	726		subcall atras, __atras_return
+0	222	728	#line 222 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	227	728	#line 227 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	228	728		jmp __ASM_Label_618
+0	228	730	#line 228 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	229	730	#pragma macro 7
+0	229	730		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4963	753	#line 4963 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	228	753	#line 228 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	228	753	#line 228 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	229	753		set __adelante_7qG2_v_7qG2_000, 100
+0	228	756	#line 228 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	230	756	#line 230 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	231	756		subcall adelante, __adelante_return
+0	230	758	#line 230 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	232	758	#line 232 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	234	758	#line 234 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	235	758		jmp __ASM_Label_567
+0	234	760	#line 234 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	236	760	#line 236 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	236	760	#line 236 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	237	760		getin __signed_stack_001main, __constVal3, 4
+0	236	764	#line 236 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	237	764	#line 237 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	238	764		mov __D0main, __main_7qG2_luz_7qG2_000
+0	237	766	#line 237 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	238	766		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	240	770	#line 240 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	241	770		brtst 4, __ASM_Label_624, __D0main
+0	241	773	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	242	773	#pragma macro 7
+0	242	773		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4994	796	#line 4994 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	241	796	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	241	796	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	242	796		set __atras_7qG2_v_7qG2_000, 100
+0	241	799	#line 241 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	243	799	#line 243 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	244	799		subcall atras, __atras_return
+0	243	801	#line 243 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	248	801	#line 248 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	249	801		jmp __ASM_Label_627
+0	249	803	#line 249 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	250	803	#pragma macro 7
+0	250	803		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5007	826	#line 5007 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	249	826	#line 249 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	249	826	#line 249 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	250	826		set __adelante_7qG2_v_7qG2_000, 100
+0	249	829	#line 249 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	251	829	#line 251 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	252	829		subcall adelante, __adelante_return
+0	251	831	#line 251 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	253	831	#line 253 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	255	831	#line 255 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	256	831		jmp __ASM_Label_567
+0	255	833	#line 255 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	257	833	#line 257 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	257	833	#line 257 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	258	833		getin __signed_stack_001main, __constVal3, 4
+0	257	837	#line 257 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	258	837	#line 258 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	259	837		mov __D0main, __main_7qG2_luz_7qG2_000
+0	258	839	#line 258 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	259	839		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	260	843	#line 260 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	261	843		brtst 4, __ASM_Label_633, __D0main
+0	261	846	#line 261 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	262	846	#pragma macro 7
+0	262	846		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5038	869	#line 5038 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	261	869	#line 261 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	261	869	#line 261 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	262	869		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 80
+0	261	872	#line 261 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	262	872	#line 262 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	263	872		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	262	874	#line 262 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	262	874	#line 262 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	263	874		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	262	877	#line 262 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	877	#line 8551 "NXCDefs.h"
+0	8552	877		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	880	#line 8551 "NXCDefs.h"
+0	266	880	#line 266 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	271	880	#line 271 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	272	880		jmp __ASM_Label_638
+0	272	882	#line 272 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	273	882	#pragma macro 7
+0	273	882		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5059	905	#line 5059 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	272	905	#line 272 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	272	905	#line 272 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	273	905		set __diagonalSuperiorDer_7qG2_v_7qG2_000, 100
+0	272	908	#line 272 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	274	908	#line 274 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	275	908		subcall diagonalSuperiorDer, __diagonalSuperiorDer_return
+0	274	910	#line 274 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	276	910	#line 276 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	278	910	#line 278 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	279	910		jmp __ASM_Label_567
+0	278	912	#line 278 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	280	912	#line 280 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	280	912	#line 280 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	281	912		getin __signed_stack_001main, __constVal3, 4
+0	280	916	#line 280 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	281	916	#line 281 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	282	916		mov __D0main, __main_7qG2_luz_7qG2_000
+0	281	918	#line 281 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	282	918		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	283	922	#line 283 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	284	922		brtst 4, __ASM_Label_644, __D0main
+0	284	925	#line 284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	285	925	#pragma macro 7
+0	285	925		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5090	948	#line 5090 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	284	948	#line 284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	284	948	#line 284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	285	948		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	284	951	#line 284 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	285	951	#line 285 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	286	951		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	285	953	#line 285 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	285	953	#line 285 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	286	953		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	285	956	#line 285 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	956	#line 8551 "NXCDefs.h"
+0	8552	956		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	959	#line 8551 "NXCDefs.h"
+0	289	959	#line 289 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	294	959	#line 294 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	295	959		jmp __ASM_Label_649
+0	295	961	#line 295 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	296	961	#pragma macro 7
+0	296	961		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5111	984	#line 5111 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	295	984	#line 295 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	295	984	#line 295 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	296	984		set __diagonalInferiorDer_7qG2_v_7qG2_000, 85
+0	295	987	#line 295 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	297	987	#line 297 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	298	987		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	297	989	#line 297 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	299	989	#line 299 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	301	989	#line 301 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	302	989		jmp __ASM_Label_567
+0	301	991	#line 301 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	303	991	#line 303 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	303	991	#line 303 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	304	991		getin __signed_stack_001main, __constVal3, 4
+0	303	995	#line 303 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	304	995	#line 304 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	305	995		mov __D0main, __main_7qG2_luz_7qG2_000
+0	304	997	#line 304 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	305	997		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	306	1001	#line 306 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	307	1001		brtst 4, __ASM_Label_655, __D0main
+0	307	1004	#line 307 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	308	1004	#pragma macro 7
+0	308	1004		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5142	1027	#line 5142 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	307	1027	#line 307 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	307	1027	#line 307 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	308	1027		set __diagonalSuperiorIzq_7qG2_v_7qG2_000, 80
+0	307	1030	#line 307 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	308	1030	#line 308 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	309	1030		subcall diagonalSuperiorIzq, __diagonalSuperiorIzq_return
+0	308	1032	#line 308 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	308	1032	#line 308 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	309	1032		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	308	1035	#line 308 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	1035	#line 8551 "NXCDefs.h"
+0	8552	1035		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1038	#line 8551 "NXCDefs.h"
+0	309	1038	#line 309 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	310	1038	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	311	1038	#pragma macro 7
+0	311	1038		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5160	1061	#line 5160 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	310	1061	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	310	1061	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	311	1061		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	310	1064	#line 310 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	1064	#line 8551 "NXCDefs.h"
+0	8552	1064		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1067	#line 8551 "NXCDefs.h"
+0	312	1067	#line 312 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	317	1067	#line 317 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	318	1067		jmp __ASM_Label_662
+0	318	1069	#line 318 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	319	1069	#pragma macro 7
+0	319	1069		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5174	1092	#line 5174 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	318	1092	#line 318 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	318	1092	#line 318 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	319	1092		set __diagonalInferiorDer_7qG2_v_7qG2_000, 85
+0	318	1095	#line 318 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	320	1095	#line 320 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	321	1095		subcall diagonalInferiorDer, __diagonalInferiorDer_return
+0	320	1097	#line 320 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	322	1097	#line 322 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	324	1097	#line 324 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	325	1097		jmp __ASM_Label_567
+0	324	1099	#line 324 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	326	1099	#line 326 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	326	1099	#line 326 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	327	1099		getin __signed_stack_001main, __constVal3, 4
+0	326	1103	#line 326 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	327	1103	#line 327 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	328	1103		mov __D0main, __main_7qG2_luz_7qG2_000
+0	327	1105	#line 327 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	328	1105		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	328	1109	#line 328 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	329	1109		brtst 4, __ASM_Label_668, __D0main
+0	328	1112	#line 328 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	329	1112		set __adelante_7qG2_v_7qG2_000, 100
+0	328	1115	#line 328 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	329	1115	#line 329 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	330	1115		subcall adelante, __adelante_return
+0	329	1117	#line 329 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	329	1117	#line 329 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	330	1117		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	329	1120	#line 329 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	8551	1120	#line 8551 "NXCDefs.h"
+0	8552	1120		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1123	#line 8551 "NXCDefs.h"
+0	331	1123	#line 331 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	336	1123	#line 336 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	337	1123		jmp __ASM_Label_673
+0	337	1125	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	338	1125	#pragma macro 7
+0	338	1125		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5223	1148	#line 5223 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	337	1148	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	337	1148	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	338	1148		set __diagonalInferiorIzq_7qG2_v_7qG2_000, 85
+0	337	1151	#line 337 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	339	1151	#line 339 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	340	1151		subcall diagonalInferiorIzq, __diagonalInferiorIzq_return
+0	339	1153	#line 339 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	341	1153	#line 341 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	342	1153	#line 342 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	342	1153	#line 342 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	344	1153	#line 344 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	345	1153	#line 345 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	347	1153	#line 347 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	348	1153		jmp __ASM_Label_676
+0	348	1155	#line 348 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	349	1155	#pragma macro 7
+0	349	1155		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5245	1178	#line 5245 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	348	1178	#line 348 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	350	1178	#line 350 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	352	1178	#line 352 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	353	1178		jmp __ASM_Label_538
+0	352	1180	#line 352 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+0	353	1180		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6281	0	#pragma macro 25
+2	6281	0		acquire __CLSWMutex0
+2	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+2	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	6281	9		syscall 21, __CLSWArgs0
+2	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+2	6281	14		release __CLSWMutex0
+2	6282	15	#line 6282 "NXTDefs.h"
+2	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+2	6284	18		set __RLSBIterations0, 60
+2	6286	21	#pragma macro 23
+2	6286	21		acquire __CLSCSMutex0
+2	6286	22		set __CLSCSArgs0.Port, 0
+2	6286	25		syscall 23, __CLSCSArgs0
+2	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+2	6286	32		release __CLSCSMutex0
+2	6286	33	#line 6286 "NXTDefs.h"
+2	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+2	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+2	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	6292	46		wait2 NA, __constVal1
+2	6293	49		jmp __RLSBDoCheckStatus0
+2	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	6298	58	#pragma macro 25
+2	6298	58		acquire __CLSRMutex0
+2	6298	59		set __CLSRArgs0.Port, 0
+2	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	6298	64		syscall 22, __CLSRArgs0
+2	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+2	6298	71		release __CLSRMutex0
+2	6298	72	#line 6298 "NXTDefs.h"
+2	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+2	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	6301	77		jmp __RLSBDone0
+2	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	6307	84		subret ____ReadLSBytes0_return
+3	6356	0	#pragma macro 25
+3	6356	0		acquire __CLSWMutex2
+3	6356	1		or __CLSWArgs2.Port, __constVal2, __LSWriteOptions2
+3	6356	5		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+3	6356	7		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+3	6356	9		syscall 21, __CLSWArgs2
+3	6356	12		mov __RLSBResult2, __CLSWArgs2.Result
+3	6356	14		release __CLSWMutex2
+3	6356	15	#line 6356 "NXTDefs.h"
+3	6357	15		brtst 5, __RLSBError2, __RLSBResult2
+3	6358	18		set __RLSBIterations2, 60
+3	6360	21	#pragma macro 23
+3	6360	21		acquire __CLSCSMutex2
+3	6360	22		set __CLSCSArgs2.Port, 2
+3	6360	25		syscall 23, __CLSCSArgs2
+3	6360	28		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+3	6360	30		mov __RLSBResult2, __CLSCSArgs2.Result
+3	6360	32		release __CLSCSMutex2
+3	6360	33	#line 6360 "NXTDefs.h"
+3	6361	33		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+3	6362	37		brtst 2, __RLSBError2, __RLSBIterations2
+3	6363	40		brtst 0, __RLSBError2, __RLSBResult2
+3	6364	43		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+3	6366	46		wait2 NA, __constVal1
+3	6367	49		jmp __RLSBDoCheckStatus2
+3	6369	51		brtst 4, __RLSBReturn2, __RLSBytesCount2
+3	6370	54		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+3	6372	58	#pragma macro 25
+3	6372	58		acquire __CLSRMutex2
+3	6372	59		set __CLSRArgs2.Port, 2
+3	6372	62		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+3	6372	64		syscall 22, __CLSRArgs2
+3	6372	67		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+3	6372	69		mov __RLSBResult2, __CLSRArgs2.Result
+3	6372	71		release __CLSRMutex2
+3	6372	72	#line 6372 "NXTDefs.h"
+3	6373	72		brtst 5, __RLSBError2, __RLSBResult2
+3	6374	75		mov __RLSLastGoodRead2, __RLSReadBuf2
+3	6375	77		jmp __RLSBDone2
+3	6377	79		mov __RLSReadBuf2, __RLSLastGoodRead2
+3	6379	81		arrsize __RLSBytesCount2, __RLSReadBuf2
+3	6381	84		subret ____ReadLSBytes2_return
+4	21	0	#line 21 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	22	0	#pragma macro 7
+4	22	0		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4033	23	#line 4033 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	21	23	#line 21 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	21	23	#line 21 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	22	23		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
+4	22	25	#line 22 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	23	25	#pragma macro 7
+4	23	25		setout __constVal0, 2, __D0diagonalSuperiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4040	48	#line 4040 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	22	48	#line 22 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	22	48	#line 22 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	23	48		mov __D0diagonalSuperiorIzq, __diagonalSuperiorIzq_7qG2_v_7qG2_000
+4	23	50	#line 23 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	24	50	#pragma macro 10
+4	24	50		acquire __OnRevMutex
+4	24	51		neg __OnRev_Tmp, __D0diagonalSuperiorIzq
+4	24	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	24	77		release __OnRevMutex
+4	4047	78	#line 4047 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	23	78	#line 23 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	25	78	#line 25 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+4	26	78		subret __diagonalSuperiorIzq_return
+5	28	0	#line 28 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	29	0	#pragma macro 7
+5	29	0		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4059	23	#line 4059 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	28	23	#line 28 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	28	23	#line 28 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	29	23		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
+5	29	25	#line 29 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	30	25	#pragma macro 7
+5	30	25		setout __constVal2, 2, __D0diagonalSuperiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4066	48	#line 4066 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	29	48	#line 29 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	29	48	#line 29 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	30	48		mov __D0diagonalSuperiorDer, __diagonalSuperiorDer_7qG2_v_7qG2_000
+5	30	50	#line 30 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	31	50	#pragma macro 10
+5	31	50		acquire __OnRevMutex
+5	31	51		neg __OnRev_Tmp, __D0diagonalSuperiorDer
+5	31	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	31	77		release __OnRevMutex
+5	4073	78	#line 4073 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	30	78	#line 30 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	32	78	#line 32 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+5	33	78		subret __diagonalSuperiorDer_return
+6	35	0	#line 35 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	36	0	#pragma macro 7
+6	36	0		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4085	23	#line 4085 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	35	23	#line 35 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	35	23	#line 35 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	36	23		mov __D0adelante, __adelante_7qG2_v_7qG2_000
+6	36	25	#line 36 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	37	25	#pragma macro 7
+6	37	25		setout __constVal0, 2, __D0adelante, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4092	48	#line 4092 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	36	48	#line 36 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	36	48	#line 36 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	37	48		mov __D0adelante, __adelante_7qG2_v_7qG2_000
+6	37	50	#line 37 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	38	50	#pragma macro 10
+6	38	50		acquire __OnRevMutex
+6	38	51		neg __OnRev_Tmp, __D0adelante
+6	38	54		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	38	77		release __OnRevMutex
+6	4099	78	#line 4099 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	37	78	#line 37 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	39	78	#line 39 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+6	40	78		subret __adelante_return
+7	42	0	#line 42 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	43	0	#pragma macro 7
+7	43	0		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4111	23	#line 4111 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	42	23	#line 42 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	42	23	#line 42 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	43	23		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
+7	43	25	#line 43 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	44	25	#pragma macro 7
+7	44	25		setout __constVal1, 2, __D0diagonalInferiorIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4118	48	#line 4118 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	43	48	#line 43 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	43	48	#line 43 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	44	48		mov __D0diagonalInferiorIzq, __diagonalInferiorIzq_7qG2_v_7qG2_000
+7	44	50	#line 44 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	45	50	#pragma macro 10
+7	45	50		acquire __OnRevMutex
+7	45	51		neg __OnRev_Tmp, __D0diagonalInferiorIzq
+7	45	54		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	45	77		release __OnRevMutex
+7	4125	78	#line 4125 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	44	78	#line 44 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	46	78	#line 46 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+7	47	78		subret __diagonalInferiorIzq_return
+8	49	0	#line 49 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	50	0	#pragma macro 7
+8	50	0		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4137	23	#line 4137 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	49	23	#line 49 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	49	23	#line 49 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	50	23		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
+8	50	25	#line 50 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	51	25	#pragma macro 7
+8	51	25		setout __constVal2, 2, __D0diagonalInferiorDer, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4144	48	#line 4144 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	50	48	#line 50 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	50	48	#line 50 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	51	48		mov __D0diagonalInferiorDer, __diagonalInferiorDer_7qG2_v_7qG2_000
+8	51	50	#line 51 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	52	50	#pragma macro 10
+8	52	50		acquire __OnRevMutex
+8	52	51		neg __OnRev_Tmp, __D0diagonalInferiorDer
+8	52	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	52	77		release __OnRevMutex
+8	4151	78	#line 4151 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	51	78	#line 51 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	53	78	#line 53 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+8	54	78		subret __diagonalInferiorDer_return
+9	56	0	#line 56 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	57	0	#pragma macro 7
+9	57	0		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4163	23	#line 4163 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	56	23	#line 56 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	56	23	#line 56 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	57	23		mov __D0atras, __atras_7qG2_v_7qG2_000
+9	57	25	#line 57 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	58	25	#pragma macro 7
+9	58	25		setout __constVal1, 2, __D0atras, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4170	48	#line 4170 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	57	48	#line 57 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	57	48	#line 57 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	58	48		mov __D0atras, __atras_7qG2_v_7qG2_000
+9	58	50	#line 58 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	59	50	#pragma macro 10
+9	59	50		acquire __OnRevMutex
+9	59	51		neg __OnRev_Tmp, __D0atras
+9	59	54		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	59	77		release __OnRevMutex
+9	4177	78	#line 4177 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	58	78	#line 58 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	60	78	#line 60 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+9	61	78		subret __atras_return
+10	63	0	#line 63 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	64	0	#pragma macro 7
+10	64	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	4189	23	#line 4189 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	63	23	#line 63 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	63	23	#line 63 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	64	23		mov __D0alinearIzq, __alinearIzq_7qG2_v_7qG2_000
+10	64	25	#line 64 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	65	25	#pragma macro 7
+10	65	25		setout __OUT_ABC, 2, __D0alinearIzq, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	4196	48	#line 4196 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	64	48	#line 64 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	66	48	#line 66 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+10	67	48		subret __alinearIzq_return
+11	69	0	#line 69 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	70	0	#pragma macro 7
+11	70	0		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	4208	23	#line 4208 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	69	23	#line 69 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	69	23	#line 69 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	70	23		mov __D0alinearDer, __alinearDer_7qG2_v_7qG2_000
+11	70	25	#line 70 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	71	25	#pragma macro 10
+11	71	25		acquire __OnRevMutex
+11	71	26		neg __OnRev_Tmp, __D0alinearDer
+11	71	29		setout __OUT_ABC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	71	52		release __OnRevMutex
+11	4215	53	#line 4215 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	70	53	#line 70 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	73	53	#line 73 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+11	74	53		subret __alinearDer_return
+12	353	0	#line 353 "C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc"
+12	354	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+1	__ResetSensorSubroutine	1183	NXTDefs.h
+2	__ReadLSBytes0	1196	NXTDefs.h
+3	__ReadLSBytes2	1282	NXTDefs.h
+4	diagonalSuperiorIzq	1368	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+5	diagonalSuperiorDer	1448	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+6	adelante	1528	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+7	diagonalInferiorIzq	1608	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+8	diagonalInferiorDer	1688	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+9	atras	1768	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+10	alinearIzq	1848	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+11	alinearDer	1898	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc
+12	__initialize_global_data	1953	C:\Users\Erick\Documents\GitHub\ChabotsETCD2016\Lego\Delantero\Pines 2.nxc

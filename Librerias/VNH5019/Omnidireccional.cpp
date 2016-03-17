@@ -127,7 +127,7 @@ void Omnidireccional::atras()
 
 }
 
-void Omnidireccional::Aizquierda(int vel1, int vel2, int vel3, int vel4)
+void Omnidireccional::Aderecha(int vel1, int vel2, int vel3, int vel4)
 {
 
 	puente1.atras1(vel1);
@@ -137,7 +137,7 @@ void Omnidireccional::Aizquierda(int vel1, int vel2, int vel3, int vel4)
 	
 }
 
-void Omnidireccional::izquierda(int vel)
+void Omnidireccional::derecha(int vel)
 {
 
 	puente1.atras1(vel);
@@ -147,7 +147,7 @@ void Omnidireccional::izquierda(int vel)
 
 }
 
-void Omnidireccional::izquierda()
+void Omnidireccional::derecha()
 {
 
 	puente1.atras1(255);
@@ -157,7 +157,7 @@ void Omnidireccional::izquierda()
 
 }
 
-void Omnidireccional::Aderecha(int vel1, int vel2, int vel3, int vel4)
+void Omnidireccional::Aizquierda(int vel1, int vel2, int vel3, int vel4)
 {
 
 	puente1.adelante1(vel1);
@@ -167,7 +167,7 @@ void Omnidireccional::Aderecha(int vel1, int vel2, int vel3, int vel4)
 
 }
 
-void Omnidireccional::derecha(int vel)
+void Omnidireccional::izquierda(int vel)
 {
 
 	puente1.adelante1(vel);
@@ -177,7 +177,7 @@ void Omnidireccional::derecha(int vel)
 
 }
 
-void Omnidireccional::derecha()
+void Omnidireccional::izquierda()
 {
 
 	puente1.adelante1(255);
